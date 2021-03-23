@@ -8,30 +8,30 @@ body {
     margin: 0 0 0 0;
     
 }
-.ilya {
-    /* width: 70%; */
-}
+/* .ilya {
+     width: 70%; 
+} */
 
 .how-see {
-    Font: 80px Roboto Slab;
-    Weight: 700;
+    font: 80px Roboto Slab;
+    font-weight: 700;
     line-height: 81,11px;
 }
 
 .za-eigth-lessons {
-    Font: 20px Roboto;
-    Weight: 400;
+    font: 20px Roboto;
+    font-weight: 400;
     line-height: 30px;
 }
 
 .o-kyrse {
-    Font: 55px Roboto Slab;
-    Weight: 700;
+    font: 55px Roboto Slab;
+    font-weight: 700;
     line-height: 55,76px;
 }
 
 .poroy-filmi {
-    Font: 24px Roboto Slab;
+    font: 24px Roboto Slab;
     font-weight: 400;
     line-height: 36px;
     width: 70%;
@@ -106,9 +106,9 @@ p.afpr {
     padding-left: 5px;
 }
 
-.producer {
-    /* margin-bottom: 10px; */
-}
+/* .producer {
+    margin-bottom: 10px; 
+} */
 
 .tarkovsky {
     margin: 0 25% 0 25%;
@@ -368,3 +368,4 @@ img{
 
 .icon-action-two:hover .comp-text-1{
     display: block;
+}
