@@ -2,39 +2,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
-    width: 100%;
+
+.ilya { 
+    width: 1280px;
     font-family: Roboto;
-    margin: 0 0 0 0;
-    
-}
-.ilya {
-    /* width: 70%; */
+    margin: 0 0 0 121px;
+} 
+
+.globus, .clock, .calendar {
+    width: 22px;
+    height: 21px;
 }
 
 .how-see {
-    Font: 80px Roboto Slab;
-    Weight: 700;
+    font: 80px Roboto Slab;
+    font-weight: 700;
     line-height: 81,11px;
+    margin-top: 0;
+    margin-bottom: 0px;
 }
 
 .za-eigth-lessons {
-    Font: 20px Roboto;
-    Weight: 400;
+    font: 20px Roboto;
+    font-weight: 400;
     line-height: 30px;
 }
 
 .o-kyrse {
-    Font: 55px Roboto Slab;
-    Weight: 700;
+    font: 55px Roboto Slab;
+    font-weight: 700;
     line-height: 55,76px;
+    margin-top: 140px ;
 }
 
 .poroy-filmi {
-    Font: 24px Roboto Slab;
+    font: 24px Roboto Slab;
     font-weight: 400;
     line-height: 36px;
-    width: 70%;
+    width: 655px;
 }
 
 .aboute-operator {
@@ -49,15 +54,14 @@ body {
 
 .logo {
     width: 112px; 
-    
 }
 
 .propirties {
+    margin-top: 90px;
     width: 60%;
     display: flex;
     font-size: 11px;
     justify-content: flex-start;
-
 }
 
 .globu {
@@ -67,13 +71,15 @@ body {
 
 .cloc {
     display: flex;
-    /* padding: 10px 10px 0 0; */
+    padding: 0 0 0 75px;
     /* margin-bottom: -5px; */
- }    
+ }   
+
 .dat {
     display: flex;
-     /* padding: 10px 10px 0 0; */
-    } 
+    padding: 0 0 0 75px;
+} 
+
 .afpr {
     display: flex;
     flex-direction: column;
@@ -84,12 +90,11 @@ body {
     flex-direction: row;
 }
 
-
-
 .operator {
-    width: 314px;
-    height: 315px;
-    margin-top: 10%;
+    width: 389px;
+    
+    margin-top: 30%;
+    margin-right: 7%;
 }
 
 p.afpr {
@@ -100,31 +105,41 @@ p.afpr {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-}     
+} 
 
 .globus {
     padding-left: 5px;
 }
 
 .producer {
-    /* margin-bottom: 10px; */
+    margin-top: 10px;
+    margin-right: 205px;
+    height: 370px;
+    width: 304px;
 }
 
 .tarkovsky {
-    margin: 0 25% 0 25%;
-    width: 483,63px;
+    margin: 25px 0 0 22%;
+    width: 500px;
 }
 
 .pics {
+    display: flex; 
+    margin-top: 6%;
+    margin-left: 10%;  
+    
+}
+
+.section-on-pics {
     display: flex;
-    justify-content: space-between;
 }
 
 .eihtzanatiy, .dwachasa, .trinedeli {
 font-family: Roboto;
 font-weight: 700;
 font-size: 25px;
-line-height: 32px
+line-height: 32px;
+
 }
 
 .eihtzanati, .dwachas, .trinedel {
@@ -134,16 +149,24 @@ font-size: 18px;
 line-height: 23px
 }
 
+.eiht-zanatiy, .dwa-chasa, .tri-nedeli {
+    padding-right: 100px;
+}
+
 .format {
     font-family: Roboto Slab;
     font-weight: 700;
     font-size: 55px;
-    Line-height: 55,76px
+    Line-height: 55,76px;
+    margin-top: 160px;
+    margin-bottom: 119px;
 }
 
 .discription {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-bottom: 140px;
+
 }
 
 .vebinar, .dostu, .obsheni {
@@ -152,6 +175,7 @@ line-height: 23px
     font-size: 25px;
     line-height: 32,5px;
     color: #1E4681;
+    margin-bottom: 10px;
     }
 
 .vebina, .dost, .obshen   {
@@ -159,6 +183,7 @@ line-height: 23px
     font-weight: 400;
     font-size: 18px;
     line-height: 23,4px;
+    margin-right: 128px;
 }
 
 .tablica-pics {
@@ -167,7 +192,10 @@ line-height: 23px
 }
 
 .pic {
-    display:block;
+    display: flex;
+    flex-direction: column;
+    margin-right: 240px;
+    padding-top: 13px;
 }
 
 .chto {
@@ -175,6 +203,8 @@ line-height: 23px
     font-weight: 700;
     font-size: 55px;
     line-height: 55,76px;
+    margin-bottom: 48px;
+    margin-top: 70px;
 }
 
 .tablic {
@@ -182,8 +212,26 @@ line-height: 23px
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
+    padding-left: 21px;
+    width: 650px;
 }
 
+.ligther {
+    width: 250px;
+}
+
+.shpagi {
+    padding-bottom: 50px;
+    padding-left: 67px;
+}
+
+.dino {
+    padding-top: 112px;
+    padding-left: 60px;
+    width: 385px;
+}
+
+-------------------------------------------
 .section-menu{
     display: flex;
     justify-content: space-between;
@@ -368,3 +416,4 @@ img{
 
 .icon-action-two:hover .comp-text-1{
     display: block;
+}
