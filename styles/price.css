@@ -1,0 +1,147 @@
+
+
+.price {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 780px;
+    background: #9DC9C8;
+}
+
+.price__title {
+    display: flex;
+    width: 63%;
+    height: 66px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-top: 179px;
+    margin-left: 122px;
+    margin-bottom: 54px;
+
+
+    color: #000000;
+}
+
+.price__ruble {
+    display: flex;
+    flex-direction: column;
+    margin-left: 122px;
+    margin-bottom: 30px;
+    width: 33.4%;
+    height: 181px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 101.38%;
+    color: #000000;
+}
+.price__ruble-stoimost {
+    display: flex;
+    margin-bottom: 0px;
+    width: 55%;
+    height: 32px;
+    margin-top: 0px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+
+    color: #000000;
+
+}
+.price__ruble-3900 {
+    display: flex;
+    width: 100%;
+    height: 149px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 101.38%;
+
+    color: #000000;
+    margin: 0;
+}
+
+
+.price__all-conditions {
+    display: flex;
+    width: 48%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+
+    color: #000000;
+    margin-left: 122px;
+    margin-bottom: 185px;
+}
+
+.price__offers {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+}
+
+.price__conditions {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    width: 43%;
+
+}
+.conditions__level {
+    margin-bottom: 9px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    color: #000000;
+    
+}
+.conditions__for-whom {
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 101.38%;
+    color: #000000;
+
+}
+
+.conditions__come-now {
+    margin-bottom: 9px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    color: #000000;
+}
+
+.conditions__too-late {
+    display: flex;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 101.38%;
+    color: #000000;
+}
+
+p {
+    margin: 0;
+}
