@@ -58,7 +58,7 @@ main{
 .img-computer{
     display: flex;
     justify-content: center;
-    padding-left: 150px;    
+    padding-left: 250px;    
     padding-top: 180px;
     padding-right: 150px;
     position: absolute;
@@ -74,27 +74,100 @@ main{
     margin-bottom: 3px;
 }
 
-.comp-text{
+.comp-text-1{
     background-color: #FFFFFF;
     box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     font-size: 15px;
-    height: 270px;
-    padding: 15px;
+    height: 250px;
+    padding: 30px;
     width: 300px;
     position: absolute;
-    margin-left: 720px;
-    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.p-in-comp-text{
+    margin-top: 0px;
 }
 
 .p-author{
     font-weight: 700;
     font-style: bold;
     font-size: 55px;
-    padding-top: 200px;
-    padding-left: 70px;
+    width: 600px;
+    margin-top: 180px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 170px;
+}
+
+.section-avatar-1{
+    display: flex;
+    height: 120px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.avatar{
+    width: 189px;
+    height: 178px;
+}
+
+.icon-avatar-1{
+    width: 28px;
+    height: 28px;
+}
+
+.icon-avatar-2{
+    width: 28px;
+    height: 28px;
+    padding-top: 35px;
+    padding-left: 15px;
+}
+
+.p-avatar-header{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.p-avatar-text{
+    font-size: 18px;
+    margin-top: 0px;
+}
+
+.comp-text-2{
+    display: none;
+    background-color: #FFFFFF;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-size: 15px;
+    height: 150px;
+    padding: 30px;
+    width: 300px;
+    position: absolute;
+    right: -50px;
+    top: 90px;
+}
+
+.section-avatar-2{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 70px;
 }
 
 img{
     width: 300px;   
+}
+
+.icon-action{
+    position: relative;
+    margin-top: 35px;
+    margin-left: 10px;
+    height: 28px;
+    width: 28px;
+}
+
+.icon-action:hover .comp-text-2{
+    display: block;
 }
