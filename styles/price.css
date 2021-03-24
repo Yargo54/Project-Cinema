@@ -227,10 +227,31 @@ p {
         font-weight: bold;
         font-size: 26px;
         line-height: 101.38%;
+        margin-top: 62px;
+        margin-right: 0px;
+        margin-bottom: 36px;
+        margin-left: 57px;
+        width: 224px;
+        height: 63px;
     }
     
-
+    .price__ruble {
+        display: flex;
+        flex-direction: column;
+        margin-left: 8.47%;
+        margin-bottom: 2.08%;
+        width: 33.4%;
+        /* height: 181px; */
+        margin-left: 57px;
+        /* margin-bottom: 30px; */
+        height: 23%;
+        margin-bottom: 23px;
+    }
     .price__ruble-stoimost {
+
+        width: 79.22px;
+        height: 14.91px;
+          
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -242,11 +263,52 @@ p {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 37px;
+        font-size: 29px;
         line-height: 101.38%;
     }
+        
+    .price__all-conditions {
+        display: flex;
+        width: 78%;
     
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 101.38%;
+    
+        color: #000000;
+        margin-left: 57px;
+        margin-bottom: 63px;
+    
+        /* margin-left: 122px;
+        margin-bottom: 185px; */
+    }
+    
+    .price__offers {
+        display: flex;
+        flex-direction: column;
+        width: 47%;
+    }
+    
+    .price__conditions {
+        display: flex;
+        flex-direction: column;
+        /* margin-right: 70px; */
+        margin-right: 19px;
+        width: 43%;
+    
+    }
+
     .conditions__level {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 101.38%;
+        width: 137px;
+        height: 14.91px;
+ 
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -255,6 +317,9 @@ p {
         
     }
     .conditions__for-whom {
+        width: 140px;
+        height: 38px;
+        
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -264,6 +329,8 @@ p {
     }
     
     .conditions__come-now {
+        width: 151px;
+        height: 14px;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -272,6 +339,9 @@ p {
     }
     
     .conditions__too-late {
+        width: 140px;
+        height: 38px;
+          
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
