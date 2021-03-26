@@ -3,91 +3,300 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-.ilya { 
+.header-container-main {
+    max-width: 1440px; 
     width: 100%;
     font-family: Roboto;
-    } 
-
-.container {
-    width: 90%;
-    margin: 0 auto;
 }
 
-.globus, .clock, .calendar {
+.header-logo {
+    width: 112px;
+    margin: 21px 0px 0px 121px; 
+}
+
+.header-container{
+    display: flex;
+    /* width: 90%; */
+    /* margin: 0 auto; */
+}
+
+.header-propirties {
+    margin: 87px 0px 0px 121px;
+}
+
+.header-image-information{
+    display: flex;
+}
+
+.header-globus {
+    display: flex;
+}
+
+.image-globus{
     width: 22px;
     height: 21px;
+    padding-top: 6px;
 }
 
-.how-see {
+.text-globus{
+    padding-left: 8px;
+    padding-right: 38px;
+    padding-top: 8px;
+    font-size: 20px;
+}
+
+.header-clock{
+    display: flex;
+}
+
+.image-clock{
+    width: 22px;
+    height: 21px;
+    padding-top: 5px;
+}
+
+.text-clock{
+    padding-left: 11px;
+    padding-right: 44px;
+    padding-top: 7px;
+    font-size: 20px;
+}
+
+.header-calendar{
+    display: flex;
+}
+
+.image-calendar{
+    width: 22px;
+    height: 21px;
+    padding-top: 5px;
+}
+
+.text-calendar{
+    padding-left: 12px;
+    padding-right: 25px;
+    padding-top: 7px;
+    font-size: 20px;
+}
+
+.header-title {
     font: 80px Roboto Slab;
-    font-weight: 700;
-    line-height: 81,11px;
-    margin-top: 0;
-    margin-bottom: 0px;
+    font-weight: bold;
+    line-height: 81px;
+    font-style: normal;
+    padding-top: 23px;
+    padding-bottom: 31px;
 }
 
-.za-eigth-lessons {
+.header-information {
     font: 20px Roboto;
     font-weight: 400;
     line-height: 30px;
+    width: 421px;
+    height: 62px;
+    margin: 0px;
 }
 
-.o-kyrse {
+.header-producer {
+    margin: 132px 244px 0px 140px;
+    height: 370px;
+    width: 400px;
+}
+
+.header-ticket{
+    background-color: #1E4681;
+    width: 480px;
+    height: 195px;
+    margin: 73px 540px 0px 410px;
+    transform: rotate(-4deg);
+    border-radius: 5px;
+}
+
+.ticket-text-main{
+    font: 25px Roboto Slab;
+    width: 430px;
+    height: 113px;
+    color: #FFFFFF;
+    transform: rotate(0deg);
+    padding-left: 26px;
+    padding-top: 17px;
+    line-height: 32px;
+}
+
+.ticket-author{
+    font: 20px Roboto;
+    width: 280px;
+    height: 45px;
+    color: #FFFFFF;
+    transform: rotate(0deg);
+    text-align: right;
+    padding-left: 180px;
+    padding-top: 21px;
+}
+
+.header-course-information{
+    margin-left: 121px;
+    margin-top: 157px;
+    margin-right: 165px;
+    margin-bottom: 19px;
+}
+
+.header-course-about{
     font: 55px Roboto Slab;
     font-weight: 700;
-    line-height: 55,76px;
-    margin-top: 140px ;
+    line-height: 56px;
+    width: 365px;
+    height: 87px;
+    margin-bottom: 22px;
 }
 
-.poroy-filmi {
-    font: 24px Roboto Slab;
+.header-course-text1{
+    font: 24px Roboto;
     font-weight: 400;
     line-height: 36px;
-    width: 655px;
+    width: 662px;
+    height: 179px;
+    line-height: 36px;
+
 }
 
-.aboute-operator {
-    width: 70%;
+.header-course-text2{
+    font: 24px Roboto;
+    font-weight: 400;
+    line-height: 36px;
+    width: 662px;
+    height: 260px;
+    line-height: 35px;
 }
 
-.p-globus, .p-clock, .p-calendar {
-    padding-left: 10px;
-    padding-top: 10px;
-    margin-right: 10px;
+.header-operator {
+    width: 360px;
+    height: 420px;
+    margin-top: 292px;
+    margin-right: 153px;
 }
 
-.logo {
-    width: 112px; 
+.header-light-man {
+    width: 232px;
+    height: 203px;
+    margin-left: 121px;
+    margin-right: 132px;
+    margin-top: 94px;
 }
 
-.propirties {
-    margin-top: 90px;
-    width: 60%;
-    display: flex;
-    font-size: 11px;
-    justify-content: flex-start;
+.header-lessons{
+    margin-top: 164px;
 }
 
-.globu {
-    display: flex;
-    /* padding: 10px 10px 0 0; */
-    }
-
-.cloc {
-    display: flex;
-    padding: 0 0 0 75px;
-    /* margin-bottom: -5px; */
- }   
-
-.dat {
-    display: flex;
-    padding: 0 0 0 75px;
-} 
-
-.afpr {
-    display: flex;
-    flex-direction: column;
+.header-lessons-title{
+    font: 25px Roboto;
+    font-weight: 700;
+    width: 150px;
+    height: 39px;
+    margin-right: 95px;
+    line-height: 32,5px;
 }
+
+.header-lessons-text{
+    font: 18px Roboto;
+    width: 150px;
+    height: 39px;
+    line-height: 23,4px;
+}
+
+.header-time{
+    margin-top: 164px;
+}
+
+.header-time-title{
+    font: 25px Roboto;
+    font-weight: 700;
+    width: 150px;
+    height: 39px;
+    margin-right: 95px;
+    line-height: 32,5px;
+
+}
+
+.header-time-text{
+    font: 18px Roboto;
+    width: 150px;
+    height: 39px;
+    line-height: 23,4px;
+}
+
+.header-weeks{
+    margin-top: 164px;
+}
+
+.header-weeks-title{
+    font: 25px Roboto;
+    font-weight: 700;
+    width: 150px;
+    height: 39px;
+    margin-right: 95px;
+    line-height: 32,5px;
+}
+
+.header-weeks-text{    
+    font: 18px Roboto;
+    width: 150px;
+    height: 39px;
+    line-height: 23,4px;
+}
+
+.header-title-about-format{
+    font: 55px Roboto Slab;
+    margin-top: 178px;
+    margin-left: 121px;
+    width: 667px;
+    height: 93px;
+    line-height: 55,76px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.header-vebinar, .head-access, .head-communication{
+    margin-left: 121px;
+}
+
+.head-vebinar-title, .head-communication-title{ 
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32,5px;
+    color: #1E4681;
+    width: 150px;
+    height: 39px;
+}
+
+.head-vebinar-text, .head-communication-text{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23,4px;
+    width: 240px;
+    height: 39px;
+    margin-right: -13px;
+}
+
+.head-access-title{
+    font: 25px Roboto;
+    width: 214px;
+    height: 39px;
+    font-weight: 700;
+    line-height: 32,5px;
+    color: #1E4681;
+}
+
+.head-access-text{
+    font: 18px Roboto;
+    width: 271px;
+    height: 109px;
+    line-height: 23,4px;
+    margin-right: -11px;
+}
+---------------------------------------------------
 
 .aboute {
     display: flex;
@@ -111,16 +320,6 @@ p.afpr {
     margin-bottom: 30px;
 } 
 
-.globus {
-    padding-left: 5px;
-}
-
-.producer {
-    margin-top: 10px;
-    margin-right: 205px;
-    height: 370px;
-    width: 304px;
-}
 
 .tarkovsky {
     margin: 25px 0 0 22%;
@@ -220,9 +419,7 @@ line-height: 23px
     width: 650px;
 }
 
-.ligther {
-    width: 250px;
-}
+
 
 .shpagi {
     padding-bottom: 50px;
@@ -235,7 +432,6 @@ line-height: 23px
     width: 385px;
 }
 
--------------------------------------------
 .section-menu{
     display: flex;
     justify-content: space-between;
@@ -422,13 +618,11 @@ img{
     display: block;
 }
 
-
-
-@media screen and (min-width: 834px) and (max-width: 1279px) {
+/* @media screen and (min-width: 834px) and (max-width: 1279px) {
     .ilya { 
         width: 100%;
         font-family: Roboto;
         } 
 
 }
-@media screen and (min-width: 375px) and (max-width: 833px) {}
+@media screen and (min-width: 375px) and (max-width: 833px) {} */
