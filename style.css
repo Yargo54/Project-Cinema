@@ -214,8 +214,6 @@
     margin-top: 164px;
 }
 
-}
-
 .header-light-man {
     width: 232px;
     height: 203px;
@@ -412,28 +410,28 @@
 .main-section-title{
     display: flex;
     margin-top: 248px;
+    justify-content: space-between;
 }
 
 .main-title{
     font-size: 55px;
     font-weight: 700;
     margin-left: 121px;
-    min-width: 600px;
+    min-width: 40%;
     max-height: 93px;
     font-family: Roboto Slab;
     line-height: 55,76px;
     white-space: nowrap;
-    width: 905px;
-    height: 93px;
     font-family: Roboto Slab;
     line-height: 55,76px;
+    margin-right: 175px;
 }
 
 .main-div-in-section{
     background-color: black;
     font-weight: 900;
     max-height: 14px;
-    min-width: 700px;
+    min-width: 49%  ;
     margin-top: 49px;
     margin-right: 0px;
 }
@@ -445,10 +443,8 @@
 
 .main-img{
     display: flex;
-    min-width: 399px;
+    max-width: 1271px;
     max-height: 328px;
-    height: 14px;
-    width: 630px;
     margin-top: 49px;
 }
 
@@ -459,8 +455,8 @@
 
 .main-img{
     display: flex;
-    width: 399px;
-    height: 328px;
+    min-width: 399px;
+    max-height: 328px;
 }
 
 .main-div-img{
@@ -469,15 +465,10 @@
     border-radius: 30px;
     margin-right: 37px;
     min-width: 399px;
-    max-width: 328px;
 }
 
 .main-div-pic{
-    min-width: 399px;
-}
-
-.main-div-pic{
-    width: 399px;
+    max-width: 100%;
 }
 
 .main-p-title{
@@ -485,8 +476,6 @@
     font-weight: 700;
     min-width: 365px;
     max-height: 39px;
-    width: 365px;
-    height: 39px;
     font-family: Roboto;
     line-height: 39px;
     padding: 11px 14px 32px 20px;
@@ -495,8 +484,6 @@
 .main-p-text{
     min-width: 365px;
     max-height: 63px;
-    width: 365px;
-    height: 63px;
     font-family: Roboto;
     font-size: 25px;
     line-height: 32,5px;
@@ -508,8 +495,6 @@
     font-weight: 700;
     max-width: 365px;
     max-height: 71px;
-    width: 365px;
-    height: 71px;
     font-family: Roboto;
     line-height: 29,1px;
     padding: 5px 14px 8px 20px;
@@ -528,7 +513,6 @@
     font-weight: 700;
     font-size: 55px;
     min-width: 600px;
-    width: 600px;
     margin-top: 324px;
     margin-bottom: 96px;
     margin-right: 413px;
@@ -594,16 +578,16 @@
 }
 
 .main-avatar{
-    width: 189px;
-    height: 178px;
+    min-width: 189px;
+    max-height: 178px;
     margin-top: 46px;
     margin-left: 156px;
     margin-bottom: 244px;
 }
 
 .main-p-avatar-header{
-    width: 312px;
-    height: 59px;
+    min-width: 312px;
+    max-height: 59px;
     font-family: Roboto Slab;
     font-weight: 700;
     font-size: 30px;
@@ -615,8 +599,8 @@
 
 .main-p-avatar-text{
     font-size: 18px;
-    width: 223px;
-    height: 31px;
+    min-width: 223px;
+    max-height: 31px;
     font-family: Roboto;
     line-height: 23,4px;
     margin-left: 20px;
@@ -632,14 +616,14 @@
 }
 
 .main-icon-avatar-1{
-    width: 28px;
-    height: 28px;
+    max-width: 28px;
+    max-height: 28px;
 }
 
 .main-comp-text-2{
     display: none;
-    height: 234px;
-    width: 399px;
+    max-height: 234px;
+    min-width: 399px;
     position: absolute;
     background-color: #FFFFFF;
     box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
@@ -675,8 +659,8 @@
 .main-icon-avatar-2{
     max-width: 28px;
     max-height: 28px;
-    width: 28px;
-    height: 28px;
+    max-width: 28px;
+    max-height: 28px;
     margin-top: 70px;
     margin-left: -100px;
 }
@@ -692,8 +676,6 @@
     bottom: 45px;
     right: 40px;
     padding: 24px 21px 24px 25px; 
-    height: 339px;
-    width: 399px;
     position: absolute;
     bottom: 45px;
     right: 40px;
@@ -716,28 +698,31 @@
 }
 
 @media screen and (min-width: 834px) and (max-width: 1279px) {
+
+    .main-menu{
+        max-width: 1279px;
+    }
+
+    .main-section-title{
+        display: flex;
+        margin-top: 248px;
+        justify-content: space-between;
+    }
+
     .main-div-in-section{
-        max-height: 8px;
-        max-width: 369px;
-        margin-top: 25px;
+        min-width: 44.5%;
+        min-height: 8px;
         margin-right: 0;
+        margin-top: 25px;
     }
     .main-title{
+        min-width: 41%;
+        max-height: 54px;
         font-size: 32px;
-        font-weight: 700;
-        margin-left: 70px;
-        margin-right: 125px;
-        min-width: 219px;
-        max-height: 53px;
-        line-height: 32,44px;
-        white-space: nowrap;
     }
-
-
 }
 @media screen and (min-width: 375px) and (max-width: 833px) {
 
-}
     .ilya { 
         width: 100%;
         font-family: Roboto;
