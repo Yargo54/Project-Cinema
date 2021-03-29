@@ -23,7 +23,7 @@
     /* margin-top: 179px;
     margin-left: 122px;
     margin-bottom: 54px; */
-    margin-top: 12.4%;
+    margin-top: 14.7%;
     margin-left: 8.5%;
     margin-bottom: 3.75%;
 
@@ -35,12 +35,13 @@
     display: flex;
     flex-direction: column;
     margin-left: 8.47%;
-    margin-bottom: 2.08%;
+    margin-bottom: 6.08%;
     width: 33.4%;
     /* height: 181px; */
     /* margin-left: 122px;
     margin-bottom: 30px; */
     height: 23%;
+    padding-top: 19px;
 
 }
 .price__ruble-stoimost {
@@ -78,7 +79,7 @@
 
 .price__all-conditions {
     display: flex;
-    width: 48%;
+    width: 55%;
 
     font-family: Roboto;
     font-style: normal;
@@ -88,8 +89,8 @@
 
     color: #000000;
     margin-left: 8.47%;
-    margin-bottom: 12.85%;
-
+    margin-bottom: 15.85%;
+    /* margin-bottom: 12.85%; */
     /* margin-left: 122px;
     margin-bottom: 185px; */
 }
@@ -104,7 +105,7 @@
     display: flex;
     flex-direction: column;
     /* margin-right: 70px; */
-    margin-right: 10.12%;
+    margin-right: 8.12%;
     width: 43%;
 
 }
@@ -126,6 +127,7 @@
     font-size: 18px;
     line-height: 101.38%;
     color: #000000;
+    padding-top: 7px;
 
 }
 
@@ -137,6 +139,7 @@
     font-size: 25px;
     line-height: 101.38%;
     color: #000000;
+    padding-left: 5px;
 }
 
 .conditions__too-late {
@@ -147,6 +150,9 @@
     font-size: 18px;
     line-height: 101.38%;
     color: #000000;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 29px;
 }
 
 p {
@@ -156,14 +162,24 @@ p {
 
 @media screen and (min-width: 834px) and (max-width: 1279px) {
    
+.price {
+    height: 453px;
 
+}
     .price__title {
         font-family: Roboto Slab;
         font-style: normal;
         font-weight: bold;
         font-size: 32px;
         line-height: 101.38%;
+        margin: 52px 191px 20px 70px;
     }
+    
+    .price__all-conditions {
+  
+        margin-top: 11px;
+        padding-bottom: 10px;
+}
     
 
     .price__ruble-stoimost {
@@ -199,6 +215,10 @@ p {
         line-height: 101.38%;
     
     }
+
+    .price__offers {
+    width: 44%;
+    }
     
     .conditions__come-now {
         font-family: Roboto;
@@ -229,8 +249,8 @@ p {
         line-height: 101.38%;
         margin-top: 62px;
         margin-right: 0px;
-        margin-bottom: 36px;
-        margin-left: 57px;
+        margin-bottom: 23px;
+        margin-left: 35px;
         width: 224px;
         height: 63px;
     }
@@ -241,10 +261,9 @@ p {
         margin-left: 8.47%;
         margin-bottom: 2.08%;
         width: 33.4%;
-        /* height: 181px; */
-        margin-left: 57px;
+        margin-left: 35px;
         /* margin-bottom: 30px; */
-        height: 23%;
+        /* height: 23%; */
         margin-bottom: 23px;
     }
     .price__ruble-stoimost {
@@ -263,7 +282,7 @@ p {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-        font-size: 29px;
+        font-size: 37px;
         line-height: 101.38%;
     }
         
@@ -278,7 +297,7 @@ p {
         line-height: 101.38%;
     
         color: #000000;
-        margin-left: 57px;
+        margin-left: 36px;
         margin-bottom: 63px;
     
         /* margin-left: 122px;
@@ -289,14 +308,17 @@ p {
         display: flex;
         flex-direction: column;
         width: 47%;
-    }
+        margin-top: 11px;
+
+}
+    
     
     .price__conditions {
         display: flex;
         flex-direction: column;
         /* margin-right: 70px; */
         margin-right: 19px;
-        width: 43%;
+        width: 23%;
     
     }
 
@@ -314,6 +336,8 @@ p {
         font-weight: normal;
         font-size: 12px;
         line-height: 101.38%;
+        margin-top: 12px;
+        margin-bottom: 3px;
         
     }
     .conditions__for-whom {
@@ -325,6 +349,7 @@ p {
         font-weight: normal;
         font-size: 10px;
         line-height: 101.38%;
+        margin-left: -1px;
     
     }
     
@@ -336,6 +361,7 @@ p {
         font-weight: normal;
         font-size: 12px;
         line-height: 101.38%;
+        margin-bottom: 5px;
     }
     
     .conditions__too-late {
