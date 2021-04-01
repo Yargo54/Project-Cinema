@@ -15,7 +15,7 @@ body{
 }
 
 .header-logo {
-    width: 112px;
+    max-width: 112px;
     margin: 21px 0px 0px 121px; 
 }
 
@@ -38,8 +38,8 @@ body{
 }
 
 .image-globus{
-    width: 22px;
-    height: 21px;
+    max-width: 22px;
+    max-height: 21px;
     padding-top: 6px;
 }
 
@@ -48,6 +48,7 @@ body{
     padding-right: 38px;
     padding-top: 8px;
     font-size: 20px;
+    white-space: nowrap;
 }
 
 .header-clock{
@@ -55,8 +56,8 @@ body{
 }
 
 .image-clock{
-    width: 22px;
-    height: 21px;
+    max-width: 22px;
+    max-height: 21px;
     padding-top: 5px;
 }
 
@@ -65,6 +66,7 @@ body{
     padding-right: 44px;
     padding-top: 7px;
     font-size: 20px;
+    white-space: nowrap;
 }
 
 .header-calendar{
@@ -72,8 +74,8 @@ body{
 }
 
 .image-calendar{
-    width: 22px;
-    height: 21px;
+    max-width: 22px;
+    max-height: 21px;
     padding-top: 5px;
 }
 
@@ -82,6 +84,7 @@ body{
     padding-right: 25px;
     padding-top: 7px;
     font-size: 20px;
+    white-space: nowrap;
 }
 
 .header-title {
@@ -91,27 +94,29 @@ body{
     font-style: normal;
     padding-top: 23px;
     padding-bottom: 31px;
+    white-space: nowrap;
 }
 
 .header-information {
     font: 20px Roboto;
     font-weight: 400;
     line-height: 30px;
-    width: 421px;
-    height: 62px;
+    max-width: 421px;
+    max-height: 62px;
     margin: 0px;
+    white-space: nowrap;
 }
 
 .header-producer {
     margin: 132px 244px 0px 140px;
-    height: 370px;
-    width: 400px;
+    max-height: 370px;
+    max-width: 400px;
 }
 
 .header-ticket{
     background-color: #1E4681;
-    width: 480px;
-    height: 195px;
+    max-width: 480px;
+    max-height: 195px;
     margin: 73px 540px -25px 410px;
     transform: rotate(-4deg);
     border-radius: 5px;
@@ -119,19 +124,20 @@ body{
 
 .ticket-text-main{
     font: 25px Roboto Slab;
-    width: 430px;
-    height: 113px;
+    max-width: 430px;
+    max-height: 113px;
     color: #FFFFFF;
     transform: rotate(0deg);
     padding-left: 26px;
     padding-top: 17px;
     line-height: 32px;
+    white-space: nowrap;
 }
 
 .ticket-author{
     font: 20px Roboto;
-    width: 280px;
-    height: 45px;
+    max-width: 280px;
+    max-height: 45px;
     color: #FFFFFF;
     transform: rotate(0deg);
     text-align: right;
@@ -142,53 +148,55 @@ body{
 .header-container {
     margin-left: 6px;
 }
+
 .header-course-information{
     margin-left: 121px;
     margin-top: 157px;
     margin-right: 165px;
-    margin-bottom: 19x;
+    margin-bottom: 19px;
 }
 
 .header-course-about{
     font: 55px Roboto Slab;
     font-weight: 700;
     line-height: 56px;
-    width: 365px;
-    height: 87px;
+    max-width: 365px;
+    max-height: 87px;
     margin-bottom: 22px;
+    white-space: nowrap;
 }
 
 .header-course-text1{
     font: 24px Roboto;
     font-weight: 400;
     line-height: 36px;
-    width: 662px;
-    height: 179px;
+    max-width: 662px;
+    max-height: 179px;
     line-height: 36px;
     margin-bottom: 5px;
+    white-space: nowrap;
 }
 
 .header-course-text2{
     font: 24px Roboto;
     font-weight: 400;
     line-height: 36px;
-    width: 662px;
-    height: 260px;
+    max-width: 662px;
+    max-height: 260px;
     line-height: 35px;
-    
+    white-space: nowrap;
 }
 
 .header-operator {
-    width: 360px;
-    height: 420px;
+    max-width: 360px;
+    max-height: 420px;
     margin-top: 300px;
     margin-right: 153px;
-  
 }
 
 .header-light-man {
-    width: 232px;
-    height: 203px;
+    max-width: 232px;
+    max-height: 203px;
     margin-left: 121px;
     margin-right: 132px;
     margin-top: 94px;
@@ -201,17 +209,19 @@ body{
 .header-lessons-title{
     font: 25px Roboto;
     font-weight: 700;
-    width: 150px;
-    height: 39px;
+    max-width: 150px;
+    max-height: 39px;
     margin-right: 95px;
     line-height: 32,5px;
+    white-space: nowrap;
 }
 
 .header-lessons-text{
     font: 18px Roboto;
-    width: 150px;
-    height: 39px;
+    max-width: 150px;
+    max-height: 39px;
     line-height: 23,4px;
+    white-space: nowrap;
 }
 
 .header-time{
@@ -219,8 +229,8 @@ body{
 }
 
 .header-light-man {
-    width: 232px;
-    height: 203px;
+    max-width: 232px;
+    max-height: 203px;
     margin-left: 121px;
     margin-right: 132px;
     margin-top: 94px;
@@ -233,15 +243,15 @@ body{
 .header-lessons-title{
     font: 25px Roboto;
     font-weight: 700;
-    width: 150px;
-    height: 39px;
+    max-width: 150px;
+    max-height: 39px;
     margin-right: 95px;
     line-height: 32,5px;
 }
 
 .header-lessons-text{
     font: 18px Roboto;
-    width: 150px;
+    max-width: 150px;
     height: 39px;
     line-height: 23,4px;
 }
@@ -253,18 +263,20 @@ body{
 .header-time-title{
     font: 25px Roboto;
     font-weight: 700;
-    width: 150px;
-    height: 39px;
+    max-width: 150px;
+    max-height: 39px;
     margin-right: 95px;
     line-height: 32,5px;
+    white-space: nowrap;
 
 }
 
 .header-time-text{
     font: 18px Roboto;
-    width: 150px;
-    height: 39px;
+    max-width: 150px;
+    max-height: 39px;
     line-height: 23,4px;
+    white-space: nowrap;
 }
 
 .header-weeks{
@@ -274,36 +286,33 @@ body{
 .header-weeks-title{
     font: 25px Roboto;
     font-weight: 700;
-    width: 150px;
-    height: 39px;
+    max-width: 150px;
+    max-height: 39px;
     margin-right: 95px;
     line-height: 32,5px;
 }
 
 .header-weeks-text{    
     font: 18px Roboto;
-    width: 150px;
-    height: 39px;
+    max-width: 150px;
+    max-height: 39px;
     line-height: 23,4px;
 }
 
-.header-weeks{
-    margin-top: 164px;
-}
 
 .header-weeks-title{
     font: 25px Roboto;
     font-weight: 700;
-    width: 150px;
-    height: 39px;
+    max-width: 150px;
+    max-height: 39px;
     margin-right: 95px;
     line-height: 32,5px;
 }
 
 .header-weeks-text{    
     font: 18px Roboto;
-    width: 150px;
-    height: 39px;
+    max-width: 150px;
+    max-height: 39px;
     line-height: 23,4px;
 }
 
@@ -311,11 +320,12 @@ body{
     font: 55px Roboto Slab;
     margin-top: 178px;
     margin-left: 121px;
-    width: 667px;
-    height: 93px;
+    max-width: 667px;
+    max-height: 93px;
     line-height: 55,76px;
     font-weight: 700;
     margin-bottom: 100px;
+    white-space: nowrap;
 }
 
 .header-vebinar, .head-access, .head-communication{
@@ -328,8 +338,9 @@ body{
     font-size: 25px;
     line-height: 32,5px;
     color: #1E4681;
-    width: 150px;
-    height: 39px;
+    max-width: 150px;
+    max-height: 39px;
+    white-space: nowrap;
 }
 
 .head-vebinar-text, .head-communication-text{
@@ -337,15 +348,16 @@ body{
     font-weight: 400;
     font-size: 18px;
     line-height: 23,4px;
-    width: 240px;
-    height: 39px;
+    max-width: 240px;
+    max-height: 39px;
     margin-right: -13px;
+    white-space: nowrap;
 }
 
 .head-access-title{
     font: 25px Roboto;
-    width: 214px;
-    height: 39px;
+    max-width: 214px;
+    max-height: 39px;
     font-weight: 700;
     line-height: 32,5px;
     color: #1E4681;
@@ -353,8 +365,8 @@ body{
 
 .head-access-text{
     font: 18px Roboto;
-    width: 271px;
-    height: 109px;
+    max-width: 271px;
+    max-height: 109px;
     line-height: 23,4px;
     margin-right: -11px;
 }
@@ -372,9 +384,10 @@ body{
     font-weight: 700;
     font-size: 63px;
     line-height: 55,76px;
-    width: 667px;
-    height: 93px;
+    max-width: 667px;
+    max-height: 93px;
     margin-left: 121px;
+    white-space: nowrap;
 }
 
 .header-end-tablic{
@@ -382,7 +395,7 @@ body{
     font-weight: 400;
     font-size: 27px;
     line-height: 41px;
-    width: 730px;
+    max-width: 730px;
     padding-top: 23px;
     margin-left: 105px;
 }
@@ -395,14 +408,14 @@ body{
 
 .header-end-shpagi{
     margin-left: 100px;
-    width: 320px;
-    height: 215px;
+    min-width: 320px;
+    max-height: 215px;
 }
 
 .header-end-dino{
     margin-top: 180px;
-    width: 610px;
-    height: 220px;
+    min-width: 610px;
+    max-height: 220px;
 }
 
 .main-menu{
@@ -516,12 +529,12 @@ body{
     font-weight: 700;
     font-size: 55px;
     width: 29%;
-    margin-top: 324px;
-    margin-bottom: 96px;
+    margin-top: 24px;
     margin-right: 413px;
     margin-left: 122px;
     font-family: Roboto Slab;
     white-space: nowrap;
+    padding-top: 200px;
 }
 
 .main-blog-section{
@@ -589,7 +602,7 @@ body{
     min-width: 189px;
     max-height: 178px;
     margin-top: 46px;
-    margin-left: 156px;
+    margin-left: 56px;
     margin-bottom: 244px;
 }
 
@@ -630,14 +643,14 @@ body{
 
 .main-comp-text-2{
     display: none;
-    max-height: 234px;
-    min-width: 399px;
+    max-height: 250px;
+    min-width: 350px;
     position: absolute;
     background-color: #FFFFFF;
     box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     padding: 30px;
-    right: -112px;
+    right: -50px;
     top: 90px;
 }
 
@@ -651,8 +664,8 @@ body{
 
 .main-section-avatar-2{
     display: flex;
-    margin-left: 160px;
-    margin-top: 220px;
+    /* margin-left: 160px; */
+    margin-top: 120px;
 }
 
 .main-icon-action-two{
@@ -668,8 +681,8 @@ body{
     max-height: 28px;
     max-width: 28px;
     max-height: 28px;
-    margin-top: 70px;
-    margin-left: -100px;
+    margin-top: 68px;
+    margin-left: -220px;
 }
 
 .main-comp-text-1{
@@ -677,15 +690,13 @@ body{
     background-color: #FFFFFF;
     box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    max-height: 339px;
-    min-width: 399px;
+    max-height: 365px;
+    min-width: 350px;
     position: absolute;
-    bottom: 45px;
-    right: 40px;
+    bottom: 5px;
+    right: 150px;
     padding: 24px 21px 24px 25px; 
     position: absolute;
-    bottom: 45px;
-    right: 40px;
     padding: 24px 21px 24px 25px;
 }
 
@@ -706,16 +717,290 @@ body{
 
 @media screen and (min-width: 834px) and (max-width: 1279px) {
 
+    .header-logo {
+        max-width: 64.87px;
+        margin: 22px 0px 0px 70.8px; 
+    }
+
+    .header-propirties {
+        margin: 56.18px 0px 0px 70.8px;
+    }
+    
+    .image-globus{
+        max-width: 12.74px;
+        max-height: 12.16px;
+    }
+
+    .text-globus{
+        font-size: 12px;
+    }
+
+    .image-clock{
+        max-width: 12.74px;
+        max-height: 12.16px;
+    }
+    
+    .text-clock{
+        font-size: 12px;
+    }
+
+    .image-calendar{
+        max-width: 12.74px;
+        max-height: 12.16px;
+    }
+    
+    .text-calendar{
+        font-size: 12px;
+    }
+
+    .header-title {
+        font: 46px Roboto Slab;
+        font-weight: bold;
+        line-height: 46.64px;
+        font-style: normal;
+        padding-top: 7px;
+        padding-bottom: 15px;
+    }
+
+    .header-information {
+        font: 12px Roboto;
+        line-height: 18px;
+        max-width: 264px;
+        max-height: 36px;
+    }
+
+    .header-producer {
+        margin: 90px 142.48px 0px 88.46px;
+        max-width: 176px;
+        max-height: 206px;
+    }
+
+    .header-ticket{
+        background-color: #1E4681;
+        max-width: 287.5px;
+        max-height: 135.09px;
+        margin: 41px 313px -25px 233px;
+    }
+    
+    .ticket-text-main{
+        font: 14px Roboto Slab;
+        max-width: 250px;
+        max-height: 65.45px;
+        line-height: 18.2px;
+    }
+
+    .ticket-author{
+        font: 12px Roboto;
+        max-width: 200px;
+        max-height: 26.43px;
+        line-height: 15.6px;
+        margin-right: 12.4px;
+        padding-left: 111px;
+        padding-bottom: 11px;
+    }
+
     .main-menu{
         max-width: 1279px;
         width: 100%;
         margin: 0 auto;
     }
 
+    .header-course-information{
+        margin-left: 70.8px;
+        margin-top: 90.78px;
+    }
+
+    .header-course-about{
+        font: 32px Roboto Slab;
+        font-weight: 700;
+        line-height: 32.44px;
+        max-width: 211px;
+        max-height: 54px;
+        margin-bottom: 26px;
+    }
+
+    .header-course-text1{
+        font: 14px Roboto;
+        font-weight: 400;
+        line-height: 21px;
+        min-width: 383px;
+        max-height: 179px;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+
+    .header-course-text2{
+        font: 14px Roboto;
+        font-weight: 400;
+        line-height: 36px;
+        min-width: 383px;
+        max-height: 179px;
+        line-height: 21px;
+        margin-bottom: 5px;
+    }
+
+    .header-operator {
+        max-width: 182px;
+        max-height: 182px;
+        margin-top: 190px;
+    }
+
+    .header-light-man {
+        max-width: 135px;
+        max-height: 118px;
+        margin-left: 70.8px;
+        margin-right: 76.45px;
+        margin-top: 54.44px;
+    }
+
+    .header-lessons{
+        margin-top: 95px;
+    }
+
+    .header-lessons-title{
+        font: 15px Roboto;
+        font-weight: 700;
+        max-width: 86.88px;
+        max-height: 23px;
+        margin-right: 95px;
+        line-height: 19,5px;
+    }
+    
+    .header-lessons-text{
+        font: 11px Roboto;
+        max-width: 86.88px;
+        max-height: 23px;
+        line-height: 14,3px;
+        margin-top: 1px;
+    }
+
+    .header-time{
+        margin-top: 95px;
+    }
+    
+    .header-time-title{
+        font: 15px Roboto;
+        font-weight: 700;
+        max-width: 86.88px;
+        max-height: 23px;
+        margin-right: 95px;
+        line-height: 19,5px;
+    
+    }
+    
+    .header-time-text{
+        font: 11px Roboto;
+        max-width: 86.88px;
+        max-height: 23px;
+        line-height: 14,3px;
+        margin-top: 1px;
+    }
+
+    .header-weeks{
+        margin-top: 95px;
+    }
+
+    .header-weeks-title{
+        font: 15px Roboto;
+        font-weight: 700;
+        max-width: 86.88px;
+        max-height: 23px;
+        margin-right: 95px;
+        line-height: 19,5px;
+    }
+    
+    .header-weeks-text{    
+        font: 11px Roboto;
+        max-width: 86.88px;
+        max-height: 23px;
+        line-height: 14,3px;
+        margin-top: 1px;
+    }
+
+    .header-title-about-format{
+        font: 32px Roboto Slab;
+        margin-top: 103px;
+        margin-left: 71px;
+        max-width: 386.3px;
+        max-height: 54px;
+        line-height: 32.44px;
+        font-weight: 700;
+        margin-bottom: 51.55px;
+    }
+
+    .header-vebinar, .head-access, .head-communication{
+        margin-left: 70.66px;
+    }
+
+    .head-vebinar-title, .head-communication-title{ 
+        font-size: 15px;
+        line-height: 19,5px;
+        max-width: 87px;
+        max-height: 23px;
+        margin-bottom: 1px;
+    }
+
+    .head-vebinar-text, .head-communication-text{
+        font-size: 11px;
+        line-height: 14,3px;
+        max-width: 153px;
+        max-height: 22px;
+        margin-right: -13px;
+    }
+
+    .head-access-title{
+        font: 15px Roboto;
+        max-width: 124px;
+        max-height: 23px;
+        line-height: 19,5px;
+        margin-bottom: 1px;
+        font-weight: 700;
+    }
+    
+    .head-access-text{
+        font: 11px Roboto;
+        max-width: 172px;
+        max-height: 63px;
+        line-height: 14.3px;
+        margin-right: -11px;
+    }
+
+    .header-end-info{
+        margin-top: 103px;
+    }
+
+    .header-end-title{
+        font-size: 32px;
+        line-height: 32.44px;
+        max-width: 386px;
+        max-height: 54px;
+        margin-left: 70.08px;
+    }
+
+    .header-end-tablic{
+        font-size: 14px;
+        line-height: 21px;
+        max-width: 389px;
+        padding-top: 23px;
+        margin-left: 80px;
+    }
+
+    .header-end-shpagi{
+        min-width: 157px;
+        max-height: 93px;
+    }
+    
+    .header-end-dino{
+        margin-top: 70px;
+        min-width: 224px;
+        max-height: 110px;
+    }
+    
     .main-section-title{
         display: flex;
         margin-top: 145px;
         justify-content: space-between;
+        margin-bottom: 86.88px;
     }
 
     .main-title{
@@ -723,11 +1008,12 @@ body{
         max-height: 43px;
         font-size: 32px;
         /* поправить после шапки font-size: vw; */
-        margin-right: 101px;
+        margin-right: 70px;
+        margin-left: 70px;
     }
 
     .main-div-in-section{
-        width: 43.7%;
+        width: 47.7%;
         min-height: 8px;
         margin-right: 0;
         margin-top: 25px;
@@ -735,10 +1021,12 @@ body{
 
     .main-section-img{
         margin-left: 48.65px;
+        margin-top: 23.75px;
     }
 
     .main-div-img{
-        width: 27.7%;
+        max-width: 27.7%;
+        margin-right: 21.43px;
     }
 
     .main-p-title{
@@ -777,19 +1065,20 @@ body{
     .main-author-title{
         width: 29.01%;
         font-size: 32px;
+        margin-left: 70.66px;
         /* поправить после шапки font-size: vw; */
     }
 
     .main-avatar-1{
         min-width: 109px; 
         max-height: 103px;
-        margin-left: 145px;
+        margin-left: 90.35px;
     }
 
     .main-avatar-2{
         min-width: 19%; 
         max-height: 96px;
-        margin-left: 60px;
+        margin-left: 0px;
     }
 
     .main-p-avatar-header{
@@ -817,26 +1106,45 @@ body{
     }
 
     .main-section-avatar-2{
-        margin-left: 10px;
-        margin-top: 93px;
+        margin-top: 50px;
+    }
+
+    .main-section-avatar-1{
+        max-width: 430px;
     }
 
     .main-icon-avatar-2{
-        padding-left: 20px;
+        padding-left: 0px;
         margin-top: 40px;
+        margin-left: -80px;
     }
 
     .main-comp-text-2{
-        max-height: 219px;
-        min-width: 231px;
+        max-height: 120px;
+        min-width: 200px;
+        width: 200px;
+        top: 60px;
+        left: -200px;
+        padding: 20px;
+    }
+
+    .main-comp-text-1{
+        max-height: 180px;
+        min-width: 190px;
+        bottom: 0px;
+        right: 30px;
+        padding: 20px;
     }
 
     .main-p-in-comp-text{
         font-size: 10px;
-        /* min-block-size: 19px; */
         font-family: Roboto;
         line-height: 23,4px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
+    }
+    
+    .main-author-title{
+        padding-top: 70px;
     }
 }
 @media screen and (min-width: 375px) and (max-width: 833px) {
