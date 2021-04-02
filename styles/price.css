@@ -3,24 +3,29 @@
 .price {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: 780px;
+    width: 100%;
+    /* height: 780px; */
+    /* height: 54.2%; */
     background: #9DC9C8;
 }
 
 .price__title {
     display: flex;
     width: 63%;
-    height: 66px;
+    /* height: 66px; */
+    height: 9%;
 
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
-    margin-top: 179px;
+    /* margin-top: 179px;
     margin-left: 122px;
-    margin-bottom: 54px;
+    margin-bottom: 54px; */
+    margin-top: 14.7%;
+    margin-left: 8.5%;
+    margin-bottom: 3.75%;
 
 
     color: #000000;
@@ -29,23 +34,22 @@
 .price__ruble {
     display: flex;
     flex-direction: column;
-    margin-left: 122px;
-    margin-bottom: 30px;
+    margin-left: 8.47%;
+    margin-bottom: 6.08%;
     width: 33.4%;
-    height: 181px;
+    /* height: 181px; */
+    /* margin-left: 122px;
+    margin-bottom: 30px; */
+    height: 23%;
+    padding-top: 19px;
 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 80px;
-    line-height: 101.38%;
-    color: #000000;
 }
 .price__ruble-stoimost {
     display: flex;
     margin-bottom: 0px;
     width: 55%;
-    height: 32px;
+    /* height: 32px; */
+    height: 19%;
     margin-top: 0px;
 
     font-family: Roboto;
@@ -60,8 +64,8 @@
 .price__ruble-3900 {
     display: flex;
     width: 100%;
-    height: 149px;
-
+    /* height: 149px; */
+    height: 83%;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -75,7 +79,7 @@
 
 .price__all-conditions {
     display: flex;
-    width: 48%;
+    width: 55%;
 
     font-family: Roboto;
     font-style: normal;
@@ -84,8 +88,11 @@
     line-height: 101.38%;
 
     color: #000000;
-    margin-left: 122px;
-    margin-bottom: 185px;
+    margin-left: 8.47%;
+    margin-bottom: 15.85%;
+    /* margin-bottom: 12.85%; */
+    /* margin-left: 122px;
+    margin-bottom: 185px; */
 }
 
 .price__offers {
@@ -97,7 +104,8 @@
 .price__conditions {
     display: flex;
     flex-direction: column;
-    margin-right: 70px;
+    /* margin-right: 70px; */
+    margin-right: 8.12%;
     width: 43%;
 
 }
@@ -119,6 +127,7 @@
     font-size: 18px;
     line-height: 101.38%;
     color: #000000;
+    padding-top: 7px;
 
 }
 
@@ -130,6 +139,7 @@
     font-size: 25px;
     line-height: 101.38%;
     color: #000000;
+    padding-left: 5px;
 }
 
 .conditions__too-late {
@@ -140,8 +150,230 @@
     font-size: 18px;
     line-height: 101.38%;
     color: #000000;
+    padding-top: 7px;
+    padding-left: 5px;
+    padding-right: 29px;
 }
 
 p {
     margin: 0;
 }
+
+
+@media screen and (min-width: 834px) and (max-width: 1279px) {
+   
+.price {
+    height: 453px;
+
+}
+    .price__title {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 101.38%;
+        margin: 52px 191px 20px 70px;
+    }
+    
+    .price__all-conditions {
+  
+        margin-top: 11px;
+        padding-bottom: 10px;
+}
+    
+
+    .price__ruble-stoimost {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 101.38%;
+    
+    }
+    .price__ruble-3900 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 46px;
+        line-height: 101.38%;
+    }
+    
+    .conditions__level {
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 101.38%;
+        
+    }
+    .conditions__for-whom {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 101.38%;
+    
+    }
+
+    .price__offers {
+    width: 44%;
+    }
+    
+    .conditions__come-now {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 101.38%;
+    }
+    
+    .conditions__too-late {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 101.38%
+    }
+
+  }
+
+  @media screen and (min-width: 375px) and (max-width: 833px) {
+   
+
+    .price__title {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 101.38%;
+        margin-top: 62px;
+        margin-right: 0px;
+        margin-bottom: 23px;
+        margin-left: 35px;
+        width: 224px;
+        height: 63px;
+    }
+    
+    .price__ruble {
+        display: flex;
+        flex-direction: column;
+        margin-left: 8.47%;
+        margin-bottom: 2.08%;
+        width: 33.4%;
+        margin-left: 35px;
+        /* margin-bottom: 30px; */
+        /* height: 23%; */
+        margin-bottom: 23px;
+    }
+    .price__ruble-stoimost {
+
+        width: 79.22px;
+        height: 14.91px;
+          
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 101.38%;
+    
+    }
+    .price__ruble-3900 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 37px;
+        line-height: 101.38%;
+    }
+        
+    .price__all-conditions {
+        display: flex;
+        width: 78%;
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 101.38%;
+    
+        color: #000000;
+        margin-left: 36px;
+        margin-bottom: 63px;
+    
+        /* margin-left: 122px;
+        margin-bottom: 185px; */
+    }
+    
+    .price__offers {
+        display: flex;
+        flex-direction: column;
+        width: 47%;
+        margin-top: 11px;
+
+}
+    
+    
+    .price__conditions {
+        display: flex;
+        flex-direction: column;
+        /* margin-right: 70px; */
+        margin-right: 19px;
+        width: 23%;
+    
+    }
+
+    .conditions__level {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 101.38%;
+        width: 137px;
+        height: 14.91px;
+ 
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 101.38%;
+        margin-top: 12px;
+        margin-bottom: 3px;
+        
+    }
+    .conditions__for-whom {
+        width: 140px;
+        height: 38px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 101.38%;
+        margin-left: -1px;
+    
+    }
+    
+    .conditions__come-now {
+        width: 151px;
+        height: 14px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 101.38%;
+        margin-bottom: 5px;
+    }
+    
+    .conditions__too-late {
+        width: 140px;
+        height: 38px;
+          
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 101.38%;
+    }
+
+
+  }
