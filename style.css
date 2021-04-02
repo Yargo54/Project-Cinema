@@ -1165,7 +1165,103 @@ body{
 
 @media screen and (min-width: 375px) and (max-width: 833px) {
     
+
+    .header-propirties {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
     
+    .header-logo {
+        min-width: 52.19px;
+        max-height: 30.75px;
+        padding-top: 36px;
+        padding-left: 35px;
+        margin: 0 0 29px 35px;
+    }
+
+    .header-image-information{
+        width: 98px;
+        margin: 0 0 0 0;
+    }
+    .header-globus {
+        
+        /* height: 9.79px; */ */
+        padding: 0 0 0 5px;
+        margin: 0 0 0 30%;
+    }
+    .image-globus {
+        margin: 0 4px 0 35px;
+        width: 10px;
+    }
+    .text-globus {
+        margin-right: 15px;
+        font-size: 10px;
+        padding: 11px 0 0 0;
+
+    }
+    
+    .image-clock {
+        width: 10px;
+        padding-left: 50px: ;
+    }
+    .text-clock {
+        font-size: 10px;
+        padding:  11px 0 0 4px;
+        margin-right: 18px;
+    }
+    .image-calendar {
+        width: 10px;
+        padding-top: 9px;
+    }
+    
+    .text-calendar {
+        font-size: 10px;
+        padding: 10px 0 0 7px;
+    }
+
+    .header-title {
+        font-size: 37px;
+        padding: 10px 0 0 65px;
+        margin: 0 0 0 0;
+        line-height: 38px;
+    }
+
+    .header-information {
+        font-size: 10px;
+        padding: 12px 0 0 65px;
+        line-height: 17px;
+    }
+
+    .header-producer {
+        width: 150px;
+        margin: 140px 0 0 -200px;
+        padding: 10px 0 0 100px;
+    }
+
+    .header-ticket {
+        margin: 33px 0 0 73px;
+        width: 225px;
+        height: 91px;
+        border-radius: 2%;
+    }
+
+    .ticket-text-main {
+        
+        width: 205px;
+        height: 80px;
+        font-size: 68%;
+        line-height: 15px;
+        padding: 6px 0 0 15px;
+    }
+    .ticket-author {
+        width: 205px;
+        height: 80px;
+        font-size: 68%;
+        line-height: 15px;
+        padding: 6px 0 0 15px;
+    }
+
+
     /**/
     .main-menu{
         max-width: 833px;
@@ -1291,4 +1387,5 @@ body{
         white-space: nowrap;
     }
 }
+
 
