@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;700;800;900&display=swap');
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 780px;
+    background: #EFEFEF;
+}
+
+.feedback__title {
+    display: flex;
+    width: 69%;
+    height: 93px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000000;
+    margin-top: 91px;
+    margin-left: 122px;
+    margin-bottom: 34px;
+}
+
+.feedback__palehova {
+    display: block;
+    width: 55%;
+    height: 451px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-left: 126px;
+    margin-bottom: 111px;
+}
+
+.feedback__palehova-text {
+    display: flex;
+    /* width: 700px; */
+    width: 89%;
+    height: 203px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    margin: 40px auto 10px;
+ 
+}
+
+.feedback__palehova-foto {
+    width: 24%;
+    height: 169px;
+    margin-left: 26px;
+    margin-bottom: 29px;
+}
+
+.feedback__palehova-signature {
+    display: flex;
+
+}
+
+.feedback__palehova-name-container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 169px;
+    margin-left: 30px;
+    margin-bottom: 29px;
+}
+
+.feedback__palehova-name {
+    display: flex;
+    width: 353px;
+    height: 59px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 101.38%;
+    margin: 40px 0 0 0;
+    color: #000000;
+}
+
+.feedback__palehova-icon {
+    display: flex;
+    width: 32px;
+    height: 31px;
+}
+
+.feedback {
+    display: flex;
+}
+
+.feedback {
+    display: flex;
+}
+
+.feedback {
+    display: flex;
+}
+
+.feedback {
+    display: flex;
+}
+
+.feedback {
+    display: flex;
+}.feedback {
+    display: flex;
+}.feedback {
+    display: flex;
+}.feedback {
+    display: flex;
+}.feedback {
+    display: flex;
+}.feedback {
+    display: flex;
+}.feedback {
+    display: flex;
+}.feedback {
+    display: flex;
+}.feedback {
+    display: flex;
+}.feedback {
+    display: flex;
+}.feedback {
+    display: flex;
+}.feedback {
+    display: flex;
+}
