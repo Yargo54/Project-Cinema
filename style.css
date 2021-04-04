@@ -6,6 +6,7 @@ body{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    border: 1px solid red;
 }
 .header-container-main {
     max-width: 1440px; 
@@ -15,120 +16,124 @@ body{
 }
 
 .header-logo {
-    max-width: 112px;
-    margin: 21px 0px 0px 121px; 
+    width: 7.8%;
+    margin: 1.45833333% 0px 0px 8.40277778%; 
 }
 
 .header-container{
+    max-width: 1440px;
+    width: 100%;
     display: flex;
-    /* width: 90%; */
-    /* margin: 0 auto; */
 }
 
 .header-propirties {
-    margin: 87px 0px 0px 121px;
+    width: 43.6805556%;
+    /* height: 21.25%; */
+    height: 21.25%;
+    margin: 6.04166667% 0px 0px 8.40277778%;
 }
 
 .header-image-information{
+    width: 80.9220986%;
+    height: 2.5%;
     display: flex;
 }
 
 .header-globus {
+    width: 36.4341847%;
+    height: 109.375%;
+    margin-right: 4.91159136%;
     display: flex;
 }
 
 .image-globus{
-    max-width: 22px;
-    max-height: 21px;
-    padding-top: 6px;
+    width: 13.75%;
+    height: 65.625%;
 }
 
 .text-globus{
-    padding-left: 8px;
-    padding-right: 38px;
-    padding-top: 8px;
-    font-size: 20px;
+    padding-left: 4%;
+    font-size: 1.38888889vw;
     white-space: nowrap;
 }
 
 .header-clock{
+    width: 31.4341847%;
+    height: 109.375%;
     display: flex;
+    margin-right: 4.91159136%;
 }
 
 .image-clock{
-    max-width: 22px;
-    max-height: 21px;
-    padding-top: 5px;
+    width: 13.75%;
+    height: 65.625%;
 }
 
 .text-clock{
-    padding-left: 11px;
-    padding-right: 44px;
-    padding-top: 7px;
-    font-size: 20px;
+    padding-left: 4%;
+    font-size: 1.38888889vw;
     white-space: nowrap;
 }
 
 .header-calendar{
+    width: 31.4341847%;
+    height: 109.375%;
+    margin-right: 4.91159136%;
     display: flex;
 }
 
 .image-calendar{
-    max-width: 22px;
-    max-height: 21px;
-    padding-top: 5px;
+    width: 13.75%;
+    height: 65.625%;
 }
 
 .text-calendar{
-    padding-left: 12px;
-    padding-right: 25px;
-    padding-top: 7px;
-    font-size: 20px;
+    padding-left: 4%;
+    font-size: 1.38888889vw;
     white-space: nowrap;
 }
 
 .header-title {
-    font: 80px Roboto Slab;
+    font: 5.6vw Roboto Slab;
+    width: 99.841017%;
+    height: 63.5876841%;
     font-weight: bold;
     line-height: 81px;
-    font-style: normal;
-    padding-top: 23px;
-    padding-bottom: 31px;
+    padding-top: 3.65659777%;
+    padding-bottom: 4.92845787%;
     white-space: nowrap;
 }
 
 .header-information {
-    font: 20px Roboto;
+    font: 1.38888889vw Roboto;
     font-weight: 400;
-    line-height: 30px;
-    max-width: 421px;
-    max-height: 62px;
-    margin: 0px;
+    line-height: 30px;  
+    width: 65.8187599%;
+    height: 21.7496653%;
     white-space: nowrap;
 }
 
 .header-producer {
-    margin: 132px 244px 0px 140px;
-    max-height: 370px;
-    max-width: 400px;
+    margin: 9% 17.0833333% 0px 9.7222222%;
+    width: 21.1111111%;
 }
 
 .header-ticket{
     background-color: #1E4681;
-    max-width: 480px;
-    max-height: 195px;
+    width: 34.4444444%;
+    height: 195px;
     margin: 73px 540px -25px 410px;
     transform: rotate(-4deg);
     border-radius: 5px;
 }
 
 .ticket-text-main{
-    font: 25px Roboto Slab;
+    font: 24px Roboto Slab;
     max-width: 430px;
     max-height: 113px;
     color: #FFFFFF;
     transform: rotate(0deg);
-    padding-left: 26px;
+    padding-left: 7px;
     padding-top: 17px;
     line-height: 32px;
     white-space: nowrap;
@@ -141,7 +146,7 @@ body{
     color: #FFFFFF;
     transform: rotate(0deg);
     text-align: right;
-    padding-left: 180px;
+    padding-left: 145px;
     padding-top: 21px;
 }
 
@@ -377,6 +382,7 @@ body{
 
 .header-end-info{
     margin-top: 182px;
+    /* min-width: 500px; */
 }
 
 .header-end-title{
@@ -395,7 +401,7 @@ body{
     font-weight: 400;
     font-size: 27px;
     line-height: 41px;
-    max-width: 730px;
+    min-width: 720px;
     padding-top: 23px;
     margin-left: 105px;
 }
@@ -461,24 +467,25 @@ body{
     width: 100%;
     display: flex;
     max-height: 328px;
-    /* margin-top: 49px; */
-    /* max-width: 1271px; */
+  
 }
 
-/* .main-img{
+.main-section-img-1{
+    margin-left: 84px;
+    margin-top: 144px; 
+    max-width: 1440px;
+    width: 100%;
     display: flex;
-    max-width: 1271px;
     max-height: 328px;
-    margin-top: 49px;
-} */    
-
+    
+}
 
 .main-div-img{
     background-color: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     margin-right: 37px;
-    width: 27.71%;
+    min-width: 27.71%;
 }
 
 .main-div-pic{
@@ -696,7 +703,6 @@ body{
     bottom: 5px;
     right: 150px;
     padding: 24px 21px 24px 25px; 
-    position: absolute;
     padding: 24px 21px 24px 25px;
 }
 
@@ -717,8 +723,15 @@ body{
 
 @media screen and (min-width: 834px) and (max-width: 1279px) {
 
+    .header-container-main {
+        max-width: 834px; 
+        width: 100%;
+        font-family: Roboto;
+        margin: 0 auto;
+    }
+
     .header-logo {
-        max-width: 64.87px;
+        min-width: 64.87px;
         margin: 22px 0px 0px 70.8px; 
     }
 
@@ -727,7 +740,7 @@ body{
     }
     
     .image-globus{
-        max-width: 12.74px;
+        min-width: 12.74px;
         max-height: 12.16px;
     }
 
@@ -736,7 +749,7 @@ body{
     }
 
     .image-clock{
-        max-width: 12.74px;
+        min-width: 12.74px;
         max-height: 12.16px;
     }
     
@@ -745,7 +758,7 @@ body{
     }
 
     .image-calendar{
-        max-width: 12.74px;
+        min-width: 12.74px;
         max-height: 12.16px;
     }
     
@@ -765,44 +778,38 @@ body{
     .header-information {
         font: 12px Roboto;
         line-height: 18px;
-        max-width: 264px;
+        min-width: 264px;
         max-height: 36px;
     }
 
     .header-producer {
         margin: 90px 142.48px 0px 88.46px;
-        max-width: 176px;
+        min-width: 176px;
         max-height: 206px;
     }
 
     .header-ticket{
         background-color: #1E4681;
-        max-width: 287.5px;
+        min-width: 287.5px;
         max-height: 135.09px;
         margin: 41px 313px -25px 233px;
     }
     
     .ticket-text-main{
         font: 14px Roboto Slab;
-        max-width: 250px;
+        min-width: 250px;
         max-height: 65.45px;
         line-height: 18.2px;
     }
 
     .ticket-author{
         font: 12px Roboto;
-        max-width: 200px;
+        min-width: 150px;
         max-height: 26.43px;
         line-height: 15.6px;
         margin-right: 12.4px;
         padding-left: 111px;
         padding-bottom: 11px;
-    }
-
-    .main-menu{
-        max-width: 1279px;
-        width: 100%;
-        margin: 0 auto;
     }
 
     .header-course-information{
@@ -814,7 +821,7 @@ body{
         font: 32px Roboto Slab;
         font-weight: 700;
         line-height: 32.44px;
-        max-width: 211px;
+        min-width: 211px;
         max-height: 54px;
         margin-bottom: 26px;
     }
@@ -840,13 +847,13 @@ body{
     }
 
     .header-operator {
-        max-width: 182px;
+        min-width: 182px;
         max-height: 182px;
         margin-top: 190px;
     }
 
     .header-light-man {
-        max-width: 135px;
+        min-width: 135px;
         max-height: 118px;
         margin-left: 70.8px;
         margin-right: 76.45px;
@@ -860,7 +867,7 @@ body{
     .header-lessons-title{
         font: 15px Roboto;
         font-weight: 700;
-        max-width: 86.88px;
+        min-width: 86.88px;
         max-height: 23px;
         margin-right: 95px;
         line-height: 19,5px;
@@ -868,7 +875,7 @@ body{
     
     .header-lessons-text{
         font: 11px Roboto;
-        max-width: 86.88px;
+        min-width: 86.88px;
         max-height: 23px;
         line-height: 14,3px;
         margin-top: 1px;
@@ -881,7 +888,7 @@ body{
     .header-time-title{
         font: 15px Roboto;
         font-weight: 700;
-        max-width: 86.88px;
+        min-width: 86.88px;
         max-height: 23px;
         margin-right: 95px;
         line-height: 19,5px;
@@ -890,7 +897,7 @@ body{
     
     .header-time-text{
         font: 11px Roboto;
-        max-width: 86.88px;
+        min-width: 86.88px;
         max-height: 23px;
         line-height: 14,3px;
         margin-top: 1px;
@@ -903,7 +910,7 @@ body{
     .header-weeks-title{
         font: 15px Roboto;
         font-weight: 700;
-        max-width: 86.88px;
+        min-width: 86.88px;
         max-height: 23px;
         margin-right: 95px;
         line-height: 19,5px;
@@ -911,7 +918,7 @@ body{
     
     .header-weeks-text{    
         font: 11px Roboto;
-        max-width: 86.88px;
+        min-width: 86.88px;
         max-height: 23px;
         line-height: 14,3px;
         margin-top: 1px;
@@ -921,7 +928,7 @@ body{
         font: 32px Roboto Slab;
         margin-top: 103px;
         margin-left: 71px;
-        max-width: 386.3px;
+        min-width: 386.3px;
         max-height: 54px;
         line-height: 32.44px;
         font-weight: 700;
@@ -935,7 +942,7 @@ body{
     .head-vebinar-title, .head-communication-title{ 
         font-size: 15px;
         line-height: 19,5px;
-        max-width: 87px;
+        min-width: 87px;
         max-height: 23px;
         margin-bottom: 1px;
     }
@@ -943,14 +950,14 @@ body{
     .head-vebinar-text, .head-communication-text{
         font-size: 11px;
         line-height: 14,3px;
-        max-width: 153px;
+        min-width: 153px;
         max-height: 22px;
         margin-right: -13px;
     }
 
     .head-access-title{
         font: 15px Roboto;
-        max-width: 124px;
+        min-width: 124px;
         max-height: 23px;
         line-height: 19,5px;
         margin-bottom: 1px;
@@ -959,7 +966,7 @@ body{
     
     .head-access-text{
         font: 11px Roboto;
-        max-width: 172px;
+        min-width: 172px;
         max-height: 63px;
         line-height: 14.3px;
         margin-right: -11px;
@@ -972,7 +979,7 @@ body{
     .header-end-title{
         font-size: 32px;
         line-height: 32.44px;
-        max-width: 386px;
+        min-width: 386px;
         max-height: 54px;
         margin-left: 70.08px;
     }
@@ -980,7 +987,7 @@ body{
     .header-end-tablic{
         font-size: 14px;
         line-height: 21px;
-        max-width: 389px;
+        min-width: 389px;
         padding-top: 23px;
         margin-left: 80px;
     }
@@ -994,6 +1001,12 @@ body{
         margin-top: 70px;
         min-width: 224px;
         max-height: 110px;
+    }
+
+    .main-menu{
+        max-width: 834px;
+        width: 100%;
+        margin: 0 auto;
     }
     
     .main-section-title{
@@ -1020,8 +1033,18 @@ body{
     }
 
     .main-section-img{
-        margin-left: 48.65px;
+        /* margin-left: 48.65px; */
         margin-top: 23.75px;
+        justify-content: center;
+        margin-left: 0px;
+
+    }
+
+    .main-section-img-1{
+        /* margin-left: 48.65px; */
+        margin-top: 23.75px;
+        justify-content: center;
+        margin-left: 0px;
     }
 
     .main-div-img{
@@ -1147,11 +1170,230 @@ body{
         padding-top: 70px;
     }
 }
-@media screen and (min-width: 375px) and (max-width: 833px) {
 
-    .ilya { 
+@media screen and (min-width: 375px) and (max-width: 833px) {
+    
+
+    .header-propirties {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    
+    .header-logo {
+        min-width: 52.19px;
+        max-height: 30.75px;
+        padding-top: 36px;
+        padding-left: 35px;
+        margin: 0 0 29px 35px;
+    }
+
+    .header-image-information{
+        width: 98px;
+        margin: 0 0 0 0;
+    }
+    .header-globus {
+        
+        /* height: 9.79px; */ */
+        padding: 0 0 0 5px;
+        margin: 0 0 0 30%;
+    }
+    .image-globus {
+        margin: 0 4px 0 35px;
+        width: 10px;
+    }
+    .text-globus {
+        margin-right: 15px;
+        font-size: 10px;
+        padding: 11px 0 0 0;
+
+    }
+    
+    .image-clock {
+        width: 10px;
+        padding-left: 50px: ;
+    }
+    .text-clock {
+        font-size: 10px;
+        padding:  11px 0 0 4px;
+        margin-right: 18px;
+    }
+    .image-calendar {
+        width: 10px;
+        padding-top: 9px;
+    }
+    
+    .text-calendar {
+        font-size: 10px;
+        padding: 10px 0 0 7px;
+    }
+
+    .header-title {
+        font-size: 37px;
+        padding: 10px 0 0 65px;
+        margin: 0 0 0 0;
+        line-height: 38px;
+    }
+
+    .header-information {
+        font-size: 10px;
+        padding: 12px 0 0 65px;
+        line-height: 17px;
+    }
+
+    .header-producer {
+        width: 150px;
+        margin: 140px 0 0 -200px;
+        padding: 10px 0 0 100px;
+    }
+
+    .header-ticket {
+        margin: 33px 0 0 73px;
+        width: 225px;
+        height: 91px;
+        border-radius: 2%;
+    }
+
+    .ticket-text-main {
+        
+        width: 205px;
+        height: 80px;
+        font-size: 68%;
+        line-height: 15px;
+        padding: 6px 0 0 15px;
+    }
+    .ticket-author {
+        width: 205px;
+        height: 80px;
+        font-size: 68%;
+        line-height: 15px;
+        padding: 6px 0 0 15px;
+    }
+
+
+    /**/
+    .main-menu{
+        max-width: 833px;
+        min-width: 375px;
         width: 100%;
+        margin: 0 auto;
+    }
+
+    .main-title{
+        font-size: 6vw;
+        margin-left: 10%;
+        min-width: 240px;
+        width: 100%;
+        min-height: 32px;
+        line-height: 26.36px;
+        white-space: nowrap;
+        margin-right: 0px;
+    }
+
+    .main-div-in-section{
+        min-width: 70px;
+        width: 50%;
+        max-height: 10px;
+        margin-right:0px;
+        margin-top: 15px;
+    }
+
+    .main-section-img{
+        flex-flow: column;
+        margin-top: 0px;
+        margin-left: 25%;
+        margin-right: 90px;
+        width: 50%;
+        max-height: 1391px;
+    }
+    
+    .main-section-img-1{
+        flex-flow: column;
+        margin-top: 47px;
+        margin-left: 25%;
+        margin-right: 90px;
+        max-height: 1391px;
+        width: 50%;
+    }
+
+    .main-div-img{
+        margin-right: 0px;
+        min-width: 186px;
+        width: 100%;
+        min-height: 152px;
+        margin-bottom: 10px;
+    }
+
+    .main-div-pic{
+        min-width: 186px;
+        min-height: 75px;
+        width: 100%;
+    }
+
+    .main-p-title{
+        font-size: 4vw;
+        min-width: 170px;
+        max-height: 18px;
+        line-height: 18.2px;
+        padding: 20px 6.52px 25px 20px;
+        white-space: nowrap;
+    }
+
+    .main-p-text{
+        min-width: 170px;
+        max-height: 30px;
+        font-size: 3vw;
+        line-height: 30px;
+        padding: 0px 6.99px 55px 20px;
+    }
+
+    .fix{
+        font-size: 4vw;
+        font-weight: 700;
+        width: 90%;
+        max-height: 71px;
         font-family: Roboto;
-        } 
+        line-height: 29,1px;
+        padding: 20px 6.52px 25px 20px;
+    }
+
+    .main-img-computer{
+        display: none;
+    }
+
+    .main-author-title{
+        font-weight: 700;
+        font-size: 6vw;
+        width: 45%;
+        margin-top: 0px;
+        margin-right: 413px;
+        margin-left: 14.7%;
+        font-family: Roboto Slab;
+        white-space: nowrap;
+        padding-top: 9%;   
+    }
+
+    .main-avatar-1{
+        width: 26.3%;
+        height: 15.2%;
+        /* min-width: 0;
+        max-height: 0; */
+        margin-top: 46px;
+        margin-left: 10%;
+        margin-bottom: 0px;
+    }
+
+    .main-p-avatar-header{
+        width: 21.6%;
+        max-height: 59px;
+        font-family: Roboto Slab;
+        font-weight: 700;
+        font-size: 4vw;
+        line-height: 30,42px;
+        margin-left: 20px;
+        margin-top: 60px;
+        margin-right: 0px;
+        white-space: nowrap;
+    }
 }
+
 
