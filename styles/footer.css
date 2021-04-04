@@ -220,7 +220,7 @@
         width: 22.22%;
         margin-top: 3.75%;
         margin-bottom: 17.4%;
-        margin-right: 10.3%;
+        /* margin-right: 10.3%; */
 
     }
         /* margin-top: 54px;
@@ -368,6 +368,7 @@
         /* margin-bottom: 17.4%; */
         margin-right: 10.3%;
         margin-left: 38px;
+        padding-left: 0px;
     }
         /* margin-top: 54px;
         margin-bottom: 248px;
