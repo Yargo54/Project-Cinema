@@ -6,6 +6,7 @@ body{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    border: 1px solid red;
 }
 .header-container-main {
     max-width: 1440px; 
@@ -15,407 +16,369 @@ body{
 }
 
 .header-logo {
-    max-width: 112px;
-    margin: 21px 0px 0px 121px; 
+    width: 7.8%;
+    margin: 1.45833333% 0px 0px 8.40277778%; 
 }
 
 .header-container{
+    max-width: 1440px;
+    width: 100%;
     display: flex;
-    /* width: 90%; */
-    /* margin: 0 auto; */
 }
 
 .header-propirties {
-    margin: 87px 0px 0px 121px;
+    width: 43.6805556%;
+    height: 21.25%;
+    margin: 6.04166667% 0px 0px 0px;
 }
 
 .header-image-information{
+    width: 80.9220986%;
+    height: 2.5%;
     display: flex;
 }
 
 .header-globus {
+    width: 36.4341847%;
+    height: 109.375%;
+    margin-right: 4.91159136%;
     display: flex;
 }
 
 .image-globus{
-    max-width: 22px;
-    max-height: 21px;
-    padding-top: 6px;
+    width: 13.75%;
+    height: 65.625%;
 }
 
 .text-globus{
-    padding-left: 8px;
-    padding-right: 38px;
-    padding-top: 8px;
-    font-size: 20px;
+    padding-left: 4%;
+    font-size: 1.38888889vw;
     white-space: nowrap;
 }
 
 .header-clock{
+    width: 31.4341847%;
+    height: 109.375%;
     display: flex;
+    margin-right: 4.91159136%;
 }
 
 .image-clock{
-    max-width: 22px;
-    max-height: 21px;
-    padding-top: 5px;
+    width: 13.75%;
+    height: 65.625%;
 }
 
 .text-clock{
-    padding-left: 11px;
-    padding-right: 44px;
-    padding-top: 7px;
-    font-size: 20px;
+    padding-left: 4%;
+    font-size: 1.38888889vw;
     white-space: nowrap;
 }
 
 .header-calendar{
+    width: 31.4341847%;
+    height: 109.375%;
+    margin-right: 4.91159136%;
     display: flex;
 }
 
 .image-calendar{
-    max-width: 22px;
-    max-height: 21px;
-    padding-top: 5px;
+    width: 13.75%;
+    height: 65.625%;
 }
 
 .text-calendar{
-    padding-left: 12px;
-    padding-right: 25px;
-    padding-top: 7px;
-    font-size: 20px;
+    padding-left: 4%;
+    font-size: 1.38888889vw;
     white-space: nowrap;
 }
 
 .header-title {
-    font: 80px Roboto Slab;
+    font: 5.6vw Roboto Slab;
+    width: 99.841017%;
+    height: 63.5876841%;
     font-weight: bold;
     line-height: 81px;
-    font-style: normal;
-    padding-top: 23px;
-    padding-bottom: 31px;
+    padding-top: 3.65659777%;
+    padding-bottom: 4.92845787%;
     white-space: nowrap;
 }
 
 .header-information {
-    font: 20px Roboto;
+    font: 1.38888889vw Roboto;
     font-weight: 400;
-    line-height: 30px;
-    max-width: 421px;
-    max-height: 62px;
-    margin: 0px;
+    line-height: 30px;  
+    width: 65.8187599%;
+    height: 21.7496653%;
     white-space: nowrap;
 }
 
 .header-producer {
-    margin: 132px 244px 0px 140px;
-    max-height: 370px;
-    max-width: 400px;
+    margin: 9% 17.0833333% 0px 9.7222222%;
+    width: 21.1111111%;
 }
 
 .header-ticket{
     background-color: #1E4681;
-    max-width: 480px;
-    max-height: 195px;
-    margin: 73px 540px -25px 410px;
+    width: 35%;
+    height: 3.14609776%;
+    margin: 4.93055556% 37.5409722% 0px 27.9861111%;
     transform: rotate(-4deg);
     border-radius: 5px;
 }
 
 .ticket-text-main{
-    font: 25px Roboto Slab;
-    max-width: 430px;
-    max-height: 113px;
+    font: 1.73611111vw Roboto Slab;
     color: #FFFFFF;
     transform: rotate(0deg);
-    padding-left: 26px;
-    padding-top: 17px;
-    line-height: 32px;
+    padding-left: 5.85858586%;
+    padding-top: 4.4%;
+    padding-right: 6%;
+    line-height: 32.5px;
+
     white-space: nowrap;
+    font-weight: 400;
 }
 
 .ticket-author{
-    font: 20px Roboto;
-    max-width: 280px;
-    max-height: 45px;
+    font: 1.38888889vw Roboto;
     color: #FFFFFF;
     transform: rotate(0deg);
-    text-align: right;
-    padding-left: 180px;
-    padding-top: 21px;
+
+    padding-left: 55%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    width: 40%;
+
 }
 
 .header-container {
-    margin-left: 6px;
+    margin-left: 8.40277778%;
+    margin-top: 10.8333333%;
+    margin-right: 8.81944444%;
 }
 
 .header-course-information{
-    margin-left: 121px;
-    margin-top: 157px;
-    margin-right: 165px;
-    margin-bottom: 19px;
+    margin-right: 13.1944444%;
+    height: 76%;
 }
 
 .header-course-about{
-    font: 55px Roboto Slab;
+    font: 3.81944444vw Roboto Slab;
     font-weight: 700;
-    line-height: 56px;
-    max-width: 365px;
-    max-height: 87px;
-    margin-bottom: 22px;
+    line-height: 55.76px;
+    width: 56.6902229%;
+    height: 14.5688102%;
+    margin-bottom: 7%;
     white-space: nowrap;
 }
 
 .header-course-text1{
-    font: 24px Roboto;
+    font: 1.66666667vw Roboto;
     font-weight: 400;
     line-height: 36px;
-    max-width: 662px;
-    max-height: 179px;
-    line-height: 36px;
-    margin-bottom: 5px;
-    white-space: nowrap;
+    margin-bottom: 8%;
+    white-space: pre-wrap;
+    width: 85%;
 }
 
 .header-course-text2{
-    font: 24px Roboto;
+    font: 1.66666667vw Roboto;
     font-weight: 400;
     line-height: 36px;
-    max-width: 662px;
-    max-height: 260px;
-    line-height: 35px;
-    white-space: nowrap;
+    white-space: pre-wrap;
+    width: 84%;
 }
 
 .header-operator {
-    max-width: 360px;
-    max-height: 420px;
-    margin-top: 300px;
-    margin-right: 153px;
+    width: 21.8055556%;
+    height: 49.3459701%;
+    margin-top: 13%;
+    margin-right: 10.625%;
 }
 
 .header-light-man {
-    max-width: 232px;
-    max-height: 203px;
-    margin-left: 121px;
-    margin-right: 132px;
-    margin-top: 94px;
+    width: 16.1111111%;
+    height: 14.0972222%;
+    margin-right: 9.16666667%;
+    margin-top: 6.52777778%;
 }
 
 .header-lessons{
-    margin-top: 164px;
+    margin-top: 11.3888889%;
+    width: 10.4166667%;
+    height: 5.48611111%;
+    margin-right: 6.59722222%;
 }
 
 .header-lessons-title{
-    font: 25px Roboto;
+    font: 1.7361111vw Roboto;
     font-weight: 700;
-    max-width: 150px;
-    max-height: 39px;
-    margin-right: 95px;
-    line-height: 32,5px;
+    width: 100%;
+    line-height: 32.5px;
     white-space: nowrap;
+    padding-bottom: 5.33333333%;
 }
 
 .header-lessons-text{
-    font: 18px Roboto;
-    max-width: 150px;
-    max-height: 39px;
-    line-height: 23,4px;
-    white-space: nowrap;
+    font: 1.25vw Roboto;
+    width: 100%;
+    line-height: 23.4px;
+    white-space: pre-wrap;
+    font-weight: 500;
 }
 
 .header-time{
-    margin-top: 164px;
-}
-
-.header-light-man {
-    max-width: 232px;
-    max-height: 203px;
-    margin-left: 121px;
-    margin-right: 132px;
-    margin-top: 94px;
-}
-
-.header-lessons{
-    margin-top: 164px;
-}
-
-.header-lessons-title{
-    font: 25px Roboto;
-    font-weight: 700;
-    max-width: 150px;
-    max-height: 39px;
-    margin-right: 95px;
-    line-height: 32,5px;
-}
-
-.header-lessons-text{
-    font: 18px Roboto;
-    max-width: 150px;
-    height: 39px;
-    line-height: 23,4px;
-}
-
-.header-time{
-    margin-top: 164px;
+    margin-top: 11.3888889%;
+    width: 10.4166667%;
+    height: 5.48611111%;
+    margin-right: 6.59722222%;
 }
 
 .header-time-title{
-    font: 25px Roboto;
+    font: 1.7361111vw Roboto;
     font-weight: 700;
-    max-width: 150px;
-    max-height: 39px;
-    margin-right: 95px;
-    line-height: 32,5px;
+    width: 100%;
+    line-height: 32.5px;
     white-space: nowrap;
-
+    padding-bottom: 5.33333333%;
 }
 
 .header-time-text{
-    font: 18px Roboto;
-    max-width: 150px;
-    max-height: 39px;
-    line-height: 23,4px;
-    white-space: nowrap;
+    font: 1.25vw Roboto;
+    width: 100%;
+    line-height: 23.4px;
+    white-space: pre-wrap;
+    font-weight: 500;
 }
 
 .header-weeks{
-    margin-top: 164px;
+    margin-top: 11.3888889%;
+    width: 10.4166667%;
+    height: 5.48611111%;
+    margin-right: 22.0138889%;
 }
 
 .header-weeks-title{
-    font: 25px Roboto;
+    font: 1.7361111vw Roboto;
     font-weight: 700;
-    max-width: 150px;
-    max-height: 39px;
-    margin-right: 95px;
-    line-height: 32,5px;
+    width: 100%;
+    line-height: 32.5px;
+    white-space: nowrap;
+    padding-bottom: 5.33333333%;
 }
 
 .header-weeks-text{    
-    font: 18px Roboto;
-    max-width: 150px;
-    max-height: 39px;
-    line-height: 23,4px;
-}
-
-
-.header-weeks-title{
-    font: 25px Roboto;
-    font-weight: 700;
-    max-width: 150px;
-    max-height: 39px;
-    margin-right: 95px;
-    line-height: 32,5px;
-}
-
-.header-weeks-text{    
-    font: 18px Roboto;
-    max-width: 150px;
-    max-height: 39px;
-    line-height: 23,4px;
+    font: 1.25vw Roboto;
+    width: 100%;
+    line-height: 23.4px;
+    white-space: pre-wrap;
+    font-weight: 500;
 }
 
 .header-title-about-format{
-    font: 55px Roboto Slab;
-    margin-top: 178px;
-    margin-left: 121px;
-    max-width: 667px;
-    max-height: 93px;
-    line-height: 55,76px;
+    font: 3.81944444vw Roboto Slab;
+    margin-top: 12.3611111%;
+    margin-left: 8.40277778%;
+    margin-bottom: 7.013888889%;
+    margin-right: 58.1944444%;
+    width: 33.4027778%;
+    height: 5.625%;
+    line-height: 55.76px;
     font-weight: 700;
-    margin-bottom: 100px;
     white-space: nowrap;
 }
 
-.header-vebinar, .head-access, .head-communication{
-    margin-left: 121px;
+.header-vebinar, .head-communication{
+    margin-right: 7.91666667%;
+    width: 16.0416667%;
+}
+
+.head-access{
+    width: 18.8194444%;
+    margin-right: 7.91666667%;
 }
 
 .head-vebinar-title, .head-communication-title{ 
-    font-family: Roboto;
+    font: 1.73611111vw Roboto;
     font-weight: 700;
-    font-size: 25px;
-    line-height: 32,5px;
+    line-height: 32.5px;
     color: #1E4681;
-    max-width: 150px;
-    max-height: 39px;
+    width: 64.9350649%;
     white-space: nowrap;
+    padding-bottom: 3.04347826%;
 }
 
 .head-vebinar-text, .head-communication-text{
-    font-family: Roboto;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 23,4px;
-    max-width: 240px;
-    max-height: 39px;
-    margin-right: -13px;
+    font: 1.25vw Roboto;
+    font-weight: 500;
+    line-height: 23.4px;
+    width: 100%;
     white-space: nowrap;
 }
 
 .head-access-title{
-    font: 25px Roboto;
-    max-width: 214px;
-    max-height: 39px;
+    font: 1.73611111vw Roboto;
+    width: 78.9667897%;
     font-weight: 700;
-    line-height: 32,5px;
+    line-height: 32.5px;
     color: #1E4681;
+    white-space: nowrap;
+    padding-bottom: 3.04347826%;
 }
 
 .head-access-text{
-    font: 18px Roboto;
-    max-width: 271px;
-    max-height: 109px;
-    line-height: 23,4px;
-    margin-right: -11px;
+    font: 1.25vw Roboto;
+    width: 100%;
+    line-height: 23.4px;
+    font-weight: 500;
+    white-space: nowrap;
 }
 
 .header-end{
     display: flex;
+    margin-bottom: 15.5555556%;
 }
 
 .header-end-info{
-    margin-top: 182px;
+    margin-top: 12.4305556%;
+    width: 53.152778%;
+    margin-left: 8.402777778%;
+    height: 33.8888889%;
+    margin-right: 3.40277778%;
 }
 
 .header-end-title{
-    font-family: Roboto Slab;
+    font: 4.375vw Roboto Slab;
     font-weight: 700;
-    font-size: 63px;
-    line-height: 55,76px;
-    max-width: 667px;
-    max-height: 93px;
-    margin-left: 121px;
+    line-height: 55.76px;
+    width: 55%;
     white-space: nowrap;
+    padding-bottom: 8.10014728%;
 }
 
 .header-end-tablic{
-    font-family: Roboto;
+    font: 1.875vw Roboto;
     font-weight: 400;
-    font-size: 27px;
     line-height: 41px;
-    max-width: 730px;
-    padding-top: 23px;
-    margin-left: 105px;
+    width: 101.6435935%;
+    padding-left: 1.47275405%;
 }
 
 .header-end-img{
     display: flex;
     flex-direction: column;
-    margin-top: 110px;
+    margin-top: 7.9166667%;
+    width: 26.8055556%;
 }
 
 .header-end-shpagi{
-    margin-left: 100px;
-    min-width: 320px;
-    max-height: 215px;
+    width: 63.9180328%;
+    padding-bottom: 72.0163934%;
 }
 
 .header-end-dino{
-    margin-top: 180px;
-    min-width: 610px;
-    max-height: 220px;
+    width: 100.2786885%;
 }
 
 .main-menu{
@@ -426,59 +389,67 @@ body{
 
 .main-section-title{
     display: flex;
-    margin-top: 248px;
-    /* justify-content: space-between; */
-    width: 100%;
+    width: 91.5972222%;
+    height: 4.44444444%;
+    margin-left: 8.40277778%;
+    margin-bottom: 8.61111111%;
 }
 
 .main-title{
-    font-size: 55px;
+    font: 3.81944444vw Roboto Slab;
     font-weight: 700;
-    margin-left: 121px;
-    width: 37.5%;
-    max-height: 93px;
-    font-family: Roboto Slab;
-    line-height: 55,76px;
+    width: 38.6656558%;
+    height: 4.85216073%;
+    line-height: 55.76px;
     white-space: nowrap;
-    font-family: Roboto Slab;
-    line-height: 55,76px;
-    margin-right: 165px;
+    margin-right: 13.570887%;
+    padding-bottom: 0.7%;
 }
 
 .main-div-in-section{
     background-color: black;
     font-weight: 900;
     max-height: 14px;
-    width: 45%;
-    margin-top: 49px;
+    width: 47.7634572%;
     margin-right: 0px;
+    margin-top: 2%;
 }
 
-.main-section-img{
-    margin-left: 84px;
-    margin-top: 144px; 
-    max-width: 1440px;
-    width: 100%;
+.main-section-img-1{
+    margin-left: 5.83333333%;
+    margin-right: 5.90277778%;
+    margin-bottom: 2.84722222%;
+    width: 88.2638889%;
     display: flex;
-    max-height: 328px;
-    /* margin-top: 49px; */
-    /* max-width: 1271px; */
+    height: 22.7777778%;
+
 }
 
-/* .main-img{
+.main-section-img-2{
+    margin-left: 5.83333333%;
+    margin-right: 5.90277778%;
+    margin-bottom: 2.84722222%;
+    width: 88.2638889%;
     display: flex;
-    max-width: 1271px;
-    max-height: 328px;
-    margin-top: 49px;
-} */    
 
+    height: 22.7777778%;
+}
+
+.main-section-img-3{
+    margin-left: 5.83333333%;
+    width: 85.9861111%;
+    display: flex;
+    height: 22.7777778%;
+
+}
 
 .main-div-img{
     background-color: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    margin-right: 37px;
-    width: 27.71%;
+    margin-right: 2.91109363%;
+    width: 31.3926042%;
+    height: 25.8064516%;
 }
 
 .main-div-pic{
@@ -486,55 +457,54 @@ body{
 }
 
 .main-p-title{
-    font-size: 30px;
+    font: 2.08333333vw Roboto;
     font-weight: 700;
-    width: 83%;
-    box-sizing: padding-box;
-    max-height: 39px;
-    font-family: Roboto;
+    width: 76.553044%;
+    height: 10.0863808%;
+    box-sizing: content-box;
     line-height: 39px;
-    padding: 11px 14px 32px 20px;
+    padding: 2.84487664% 0px 8.27600476% 5.17250297%;
     white-space: nowrap;
+    margin-right: 21.4658873%;
 }
 
 .main-p-text{
-    width: 83%;
-    max-height: 63px;
-    font-family: Roboto;
-    font-size: 25px;
-    line-height: 32,5px;
-    padding: 0px 15px 23px 19px;
+    font: 1.73611111vw Roboto;
+    width: 54.8285315%;
+    height: 16.2933844%;
+    line-height: 32.5px;
+    padding: 0px 0px 5.94837842% 4.91387783%;
     white-space: nowrap;
+    margin-right: 43.449025%;
 }
 
 .fix{
-    font-size: 30px;
+    font: 2.08333333vw Roboto;
     font-weight: 700;
-    width: 83%;
-    max-height: 71px;
-    font-family: Roboto;
-    line-height: 29,1px;
-    padding: 5px 14px 8px 20px;
+    width: 94.3981793%;
+    height: 18.3623856%;
+    line-height: 29.1px;
+    padding: 4.13800238% 0px 2.55175089% 5.68975327%;
+    margin-right: 3.62075208%;
 }
 
 .main-img-computer{
-    padding-left: 74.375%;       
-    padding-right: 116px;
-    width: 17.6%;       
-    max-height: 199px;
-    box-sizing: padding-box;
+    margin-left: 74.375%;
+    margin-right: 8.05555556%;
+    margin-bottom: 3.47222222%;
+    width: 17.5694444%;       
+    max-height: 13.8194444%;
+    box-sizing: content-box;
 }
 
 .main-author-title{
     font-weight: 700;
-    font-size: 55px;
-    width: 29%;
-    margin-top: 24px;
-    margin-right: 413px;
-    margin-left: 122px;
-    font-family: Roboto Slab;
+    font: 3.81944444vw Roboto Slab;
+    width: 28.8194444%;
+    margin-right: 27.9166667%;
+    margin-left: 8.47222222%;
     white-space: nowrap;
-    padding-top: 200px;
+    padding-top: 10.5%; 
 }
 
 .main-blog-section{
@@ -543,146 +513,136 @@ body{
 
 .main-section-avatar-1{
     display: flex;
+    width: 40.3472222%;
+    margin-left: 10.8333333%;
+    margin-top: 3.68055556%;
 }
 
 .main-avatar-1{
-    width: 13.125%;
-    max-height: 178px;
-    margin-top: 46px;
-    margin-left: 156px;
-    margin-bottom: 244px;
+    width: 38.2591093%;
+    height: 34.0323887%;    
 }
 
-.main-p-avatar-header{
-    width: 21.6%;
-    max-height: 59px;
-    font-family: Roboto Slab;
+.main-p-avatar-header-1{
+    width: 76.4705882%;
+    height: 7.4607843%;
+    font: 2.08333333vw Roboto Slab;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 30,42px;
-    margin-left: 20px;
-    margin-top: 96px;
-    margin-right: 76px;
+    line-height: 30.42px;
+    margin-left: 4.90196078%;
+    margin-top: 12.254902%;
+    margin-right: 18.627451%;
+    margin-bottom: 1.47058824%;
+    white-space: nowrap;
+}
+
+.main-p-avatar-header-2{
+    width: 76.4705882%;
+    height: 7.4607843%;
+    font: 2.08333333vw Roboto Slab;
+    font-weight: 700;
+    line-height: 30.42px;
+    margin-left: 4.90196078%;
+    margin-top: 16.254902%;
+    margin-bottom: 1.47058824%;
+    margin-right: 18.627451%;
     white-space: nowrap;
 }
 
 .main-p-avatar-text{
-    font-size: 18px;
-    width: 15.5%;
-    max-height: 31px;
-    font-family: Roboto;
-    line-height: 23,4px;
+    font: 1.25vw Roboto;
+    width: 54.6568627%;
+    height: 7.59803922%;
+    line-height: 23.4px;
     margin-left: 20px;
-    margin-right: 165px;
+    margin-right: 11vw;
     margin-bottom: 39px;
     white-space: nowrap;
 }
 
 .main-icon-action-one{
     position: relative;    
-    margin-top: 106px;
+    margin-top: 10.480392%;
     margin-bottom: 85px;
-    margin-left: -100px;
+    margin-left: -4.958333vw;
 }
 
 .main-icon-avatar-1{
-    max-width: 28px;
-    max-height: 28px;
-}
-
-.main-avatar-1{
-    min-width: 189px;
-    max-height: 178px;
-    margin-top: 46px;
-    margin-left: 156px;
-    margin-bottom: 244px;
+    max-width: 1.944444444vw;
+    max-height: 1.944444444vw;
+    margin-top: -0.4vw;
 }
 
 .main-avatar-2{
-    min-width: 189px;
-    max-height: 178px;
+    width: 24.813688%;
+    height: 36.03929%;
     margin-top: 46px;
     margin-left: 56px;
     margin-bottom: 244px;
 }
 
-.main-p-avatar-header{
-    min-width: 312px;
-    max-height: 59px;
-    font-family: Roboto Slab;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 30,42px;
-    margin-left: 20px;
-    margin-top: 96px;
-    margin-right: 76px;
-}
-
-.main-p-avatar-text{
-    font-size: 18px;
-    min-width: 223px;
-    max-height: 31px;
-    font-family: Roboto;
-    line-height: 23,4px;
-    margin-left: 20px;
-    margin-right: 165px;
-    margin-bottom: 39px;
-}
-
-.main-icon-action-one{
-    position: relative;    
-    margin-top: 106px;
-    margin-bottom: 85px;
-    margin-left: -100px;
-}
-
-.main-icon-avatar-1{
-    max-width: 28px;
-    max-height: 28px;
-}
-
 .main-comp-text-2{
     display: none;
-    max-height: 250px;
-    min-width: 350px;
+    height: 21vw;
+    width: 26.3888889vw;
     position: absolute;
     background-color: #FFFFFF;
     box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    padding: 30px;
-    right: -50px;
+    right: -1.041666667vw;
     top: 90px;
 }
 
-.main-p-in-comp-text{
-    font-size: 19px;
-    min-block-size: 19px;
-    font-family: Roboto;
-    line-height: 23,4px;
-    padding-bottom: 40px;
+.main-p-in-comp-text-1{
+    font: 1.25vw Roboto;
+    font-weight: 400;
+    line-height: 23.4px;
+    padding: 5.76942356% 5.26315789% 4.26065163% 6.26566416%;
+    margin-bottom: 1.06944444vw;
+}
+
+.main-p-in-comp-text-2{
+    font: 1.25vw Roboto;
+    font-weight: 400;
+    line-height: 23.4px;
+    padding: 0px 5.26315789% 4.26065163% 6.26566416%;
+}
+
+.main-p-in-comp-text-3{
+    font: 1.25vw Roboto;
+    font-weight: 400;
+    line-height: 1.625vw;
+    padding: 5.76942356% 5.26315789% 4.26065163% 6.26566416%;
+    margin-bottom: 0.26065%;
+    margin-top: 2.260652%;
+}
+
+.main-p-in-comp-text-4{
+    font: 1.25vw Roboto;
+    font-weight: 400;
+    line-height: 1.625vw;
+    padding: 2.76942356% 5.26315789% 0px 6.26566416%;
+    margin-top: 0.26065%;
 }
 
 .main-section-avatar-2{
     display: flex;
-    /* margin-left: 160px; */
     margin-top: 120px;
 }
 
 .main-icon-action-two{
     position: relative;
-    margin-top: 35px;
-    margin-left: 10px;
+    margin-top: 2.22222222vw;
+    margin-left: 2.56944444vw;
     max-height: 28px;
     max-width: 28px;
 }
 
 .main-icon-avatar-2{
-    max-width: 28px;
-    max-height: 28px;
-    max-width: 28px;
-    max-height: 28px;
-    margin-top: 68px;
-    margin-left: -220px;
+    max-width: 1.944444444vw;
+    max-height: 1.944444444vw;
+    margin-top: 4.1vw;
+    margin-left: -17.861111vw;
 }
 
 .main-comp-text-1{
@@ -690,14 +650,11 @@ body{
     background-color: #FFFFFF;
     box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    max-height: 365px;
-    min-width: 350px;
+    height: 27.166667vw;
+    min-width: 29.305556vw;
     position: absolute;
     bottom: 5px;
-    right: 150px;
-    padding: 24px 21px 24px 25px; 
-    position: absolute;
-    padding: 24px 21px 24px 25px;
+    right: 132px;
 }
 
 .main-icon-action-one:hover .main-comp-text-2{
@@ -717,86 +674,343 @@ body{
 
 @media screen and (min-width: 834px) and (max-width: 1279px) {
 
+    .header-container-main {
+        max-width: 1279px; 
+        width: 100%;
+        font-family: Roboto;
+        margin: 0 auto;
+    }
+
     .header-logo {
-        max-width: 64.87px;
-        margin: 22px 0px 0px 70.8px; 
+        width: 7.77817746%;
+        height: 9.9557292%;
+        margin-top: 2.51798561%;
+        margin-right: 83.8189448%;
+        margin-bottom: 0px;
+        margin-left: 8.4028777%;
+    }
+
+    .header-container{
+        max-width: 1279px;
+        width: 100%;
+        display: flex;
+        margin: 0;
     }
 
     .header-propirties {
-        margin: 56.18px 0px 0px 70.8px;
+        width: 43.6810552%;
+        height: 21.2434053%;
+        margin-left: 0px;
+        margin-bottom: 11.1870504%;
+        margin-right: 12.721823%;
+        margin-top: 0px;
+    }
+
+    .header-image-information{
+        width: 90.6630582%;
+        height: 6.41222783%;
+    }
+
+    .header-globus{
+        width: 35.434871%;
+        height: 6.87584803%;
+        margin-right: 4.91180461%;
     }
     
     .image-globus{
-        max-width: 12.74px;
-        max-height: 12.16px;
+        width: 15.2046784%;
+        height: 14.5124717%;
     }
 
     .text-globus{
-        font-size: 12px;
+        width: 89.8555914%;
+        padding-left: 5.52571906%;
+        font-size: 1.43884892vw;
     }
 
+    .header-clock{
+        width: 31.8249661%;
+        height: 7.07259159%;
+        margin-right: 4.91180461%;
+    }
+    
     .image-clock{
-        max-width: 12.74px;
-        max-height: 12.16px;
+        width: 15.0787075%;
+        height: 15.0787075%;
     }
     
     .text-clock{
-        font-size: 12px;
+        width: 67.4636052%;
+        padding-left: 7.13693928%;
+        font-size: 1.43884892vw;
     }
 
+    .header-calendar{
+        width: 35.17232%;
+        height: 5.76662144%;
+        margin-right: 4.91180461%;
+    }
+    
     .image-calendar{
-        max-width: 12.74px;
-        max-height: 12.16px;
+        width: 13.9001506%;
+        height: 15.0584965%;
     }
     
     .text-calendar{
-        font-size: 12px;
+        width: 76.4508282%;
+        padding-left: 9.26676706%;
+        font-size: 1.43884892vw;
     }
 
     .header-title {
-        font: 46px Roboto Slab;
-        font-weight: bold;
+        font: 5.51558753vw Roboto Slab;
+        font-weight: 700;
         line-height: 46.64px;
         font-style: normal;
-        padding-top: 7px;
-        padding-bottom: 15px;
+        padding-top: 2.15278632%;
+        padding-bottom: 6.15081806%;
     }
 
     .header-information {
-        font: 12px Roboto;
+        font: 1.43884892vw Roboto;
         line-height: 18px;
-        max-width: 264px;
-        max-height: 36px;
+        width: 81.1907984%;
+        height: 11.0714725%;
     }
 
     .header-producer {
-        margin: 90px 142.48px 0px 88.46px;
-        max-width: 176px;
-        max-height: 206px;
+        margin-top: 4.195313%;
+        margin-right: 17.0839329%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        width: 21.1103118%;
     }
 
     .header-ticket{
-        background-color: #1E4681;
-        max-width: 287.5px;
-        max-height: 135.09px;
-        margin: 41px 313px -25px 233px;
+        width: 34.4724221%;
+        height: 16.1978417%;
+        margin-right: 37.5407674%;
+        margin-bottom: 0px;
+        margin-left: 27.9856115%;
     }
     
     .ticket-text-main{
-        font: 14px Roboto Slab;
-        max-width: 250px;
-        max-height: 65.45px;
+        font: 1.67865707vw Roboto Slab;
+        padding-left: 5.70497148%;
+        padding-top: 4.12931269%;
+        padding-right: 5.89853301%;
         line-height: 18.2px;
     }
 
     .ticket-author{
-        font: 12px Roboto;
-        max-width: 200px;
-        max-height: 26.43px;
-        line-height: 15.6px;
-        margin-right: 12.4px;
-        padding-left: 111px;
-        padding-bottom: 11px;
+        font: 1.43884892vw Roboto;
+        padding-left: 53.761478%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        padding-right: 4.21081228%;
+        width: 41.119449%;
+    }
+
+    .header-container {
+        margin-left: 8.40277778%;
+        margin-top: 10.8333333%;
+        margin-right: 8.81944444%;
+    }
+
+    .header-course-information{
+        margin-right: 13.0131894%;
+        height: 76%;
+        width: 46.1630695%;
+    }
+
+    .header-course-about{
+        font: 3.83693046vw Roboto Slab;
+        font-weight: 700;
+        line-height: 32.44px;
+        width: 33.5064935%;
+        height: 9.35064935%;
+        margin-bottom: 8.57142857%;
+    }
+
+    .header-course-text1{
+        font: 1.67865707vw Roboto;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 8%;
+        width: 100%;
+    }
+
+    .header-course-text2{
+        font: 1.67865707vw Roboto;
+        font-weight: 400;
+        line-height: 21px;
+        white-space: pre-wrap;
+        width: 100%;
+    }
+
+    .header-operator {
+        width: 21.8057554%;
+        height: 21.8752998%;
+    }
+
+    .header-light-man {
+        width: 16.1115108%;
+        height: 14.0971223%;
+        margin-right: 9.16666667%;
+        margin-top: 0px;
+    }
+
+    .header-lessons{
+        margin-top: 4.752998%;
+        width: 10.4172662%;
+        height: 5.48561151%;
+        margin-right: 6.5971223%;
+    }
+    
+    .header-lessons-title{
+        font: 1.79856115vw Roboto;
+        font-weight: 700;
+        line-height: 19.5px;
+        padding-bottom: 6.00828729%;
+    }
+    
+    .header-lessons-text{
+        font: 1.31894484vw Roboto;
+        line-height: 14.3px;
+        font-weight: 500;
+    }
+
+    .header-time{
+        margin-top: 4.752998%;
+        width: 10.4172662%;
+        height: 5.48561151%;
+        margin-right: 5.597122%;
+    }
+    
+    .header-time-title{
+        font: 1.79856115vw Roboto;
+        font-weight: 700;
+        line-height: 19.5px;
+        padding-bottom: 6.00828729%;
+    }
+    
+    .header-time-text{
+        font: 1.31894484vw Roboto;
+        line-height: 14.3px;
+        font-weight: 500;
+        width: 105%;
+    }
+
+    .header-weeks{
+        margin-top: 4.752998%;
+        width: 10.4172662%;
+        height: 5.48561151%;
+    }
+    
+    .header-weeks-title{
+        font: 1.79856115vw Roboto;
+        font-weight: 700;
+        line-height: 19.5px;
+        padding-bottom: 6.00828729%;;
+    }
+    
+    .header-weeks-text{    
+        font: 1.31894484vw Roboto;
+        line-height: 14.3px;
+        font-weight: 500;
+    }
+
+    .header-title-about-format{
+        font: 3.83693046vw Roboto Slab;
+        margin-top: 11.2290168%;
+        margin-left: 8.39328537%;
+        margin-bottom: 7.98321343%;
+        margin-right: 57.3141487%;
+        width: 34.2925659%;
+        height: 4.67625899%;
+        line-height: 32.44px;
+        font-weight: 700;
+    }
+
+    .header-vebinar, .head-communication{
+        margin-right: 5.63549161%;
+        width: 18.26611871%;
+    }
+    
+    .head-access{
+        width: 20.6235012%;
+        margin-right: 5.63549161%;
+    }
+
+    .head-vebinar-title, .head-communication-title{ 
+        font: 1.79856115vw Roboto;
+        font-weight: 700;
+        line-height: 19.5px;
+        width: 57.0303269%;
+        padding-bottom: 3.28213207%;
+    }
+
+    .head-vebinar-text, .head-communication-text{
+        font: 1.31894484vw Roboto;
+        font-weight: 500;
+        line-height: 14.3px;
+    }
+
+    .head-access-title{
+        font: 1.79856115vw Roboto;
+        width: 82.0533018%;
+        font-weight: 700;
+        line-height: 19.5px;
+        padding-bottom: 3.28213207%;
+    }
+    
+    .head-access-text{
+        font: 1.31894484vw Roboto;
+        width: 100%;
+        line-height: 14.3px;
+        font-weight: 500;
+    }
+
+    .header-end{
+        margin-bottom: 15.32494%;
+    }
+
+    .header-end-info{
+        margin-top: 12.4160671%;
+        width: 46.3189448%;
+        margin-left: 8.39328537%;
+        height: 35.6654676%;
+        margin-right: 4.3057554%;
+    }
+
+    .header-end-title{
+        font: 3.83693046vw Roboto Slab;
+        font-weight: 700;
+        line-height: 32.44px;
+        width: 51.2555009%;
+        padding-bottom: 6.98938649%;
+    }
+
+    .header-end-tablic{
+        font: 1.67865707vw Roboto;
+        font-weight: 400;
+        line-height: 21px;
+        width: 97.3336785%;
+        padding-left: 4.472754%;
+    }
+
+    .header-end-img{
+        margin-top: 8.917266%;
+        width: 26.8057554%;
+    }
+
+    .header-end-shpagi{
+        width: 70.9863565%;
+        padding-bottom: 45.8555133%;
+    }
+    
+    .header-end-dino{
+        width: 100.004473%;
     }
 
     .main-menu{
@@ -804,354 +1018,970 @@ body{
         width: 100%;
         margin: 0 auto;
     }
-
-    .header-course-information{
-        margin-left: 70.8px;
-        margin-top: 90.78px;
-    }
-
-    .header-course-about{
-        font: 32px Roboto Slab;
-        font-weight: 700;
-        line-height: 32.44px;
-        max-width: 211px;
-        max-height: 54px;
-        margin-bottom: 26px;
-    }
-
-    .header-course-text1{
-        font: 14px Roboto;
-        font-weight: 400;
-        line-height: 21px;
-        min-width: 383px;
-        max-height: 179px;
-        line-height: 21px;
-        margin-bottom: 5px;
-    }
-
-    .header-course-text2{
-        font: 14px Roboto;
-        font-weight: 400;
-        line-height: 36px;
-        min-width: 383px;
-        max-height: 179px;
-        line-height: 21px;
-        margin-bottom: 5px;
-    }
-
-    .header-operator {
-        max-width: 182px;
-        max-height: 182px;
-        margin-top: 190px;
-    }
-
-    .header-light-man {
-        max-width: 135px;
-        max-height: 118px;
-        margin-left: 70.8px;
-        margin-right: 76.45px;
-        margin-top: 54.44px;
-    }
-
-    .header-lessons{
-        margin-top: 95px;
-    }
-
-    .header-lessons-title{
-        font: 15px Roboto;
-        font-weight: 700;
-        max-width: 86.88px;
-        max-height: 23px;
-        margin-right: 95px;
-        line-height: 19,5px;
-    }
-    
-    .header-lessons-text{
-        font: 11px Roboto;
-        max-width: 86.88px;
-        max-height: 23px;
-        line-height: 14,3px;
-        margin-top: 1px;
-    }
-
-    .header-time{
-        margin-top: 95px;
-    }
-    
-    .header-time-title{
-        font: 15px Roboto;
-        font-weight: 700;
-        max-width: 86.88px;
-        max-height: 23px;
-        margin-right: 95px;
-        line-height: 19,5px;
-    
-    }
-    
-    .header-time-text{
-        font: 11px Roboto;
-        max-width: 86.88px;
-        max-height: 23px;
-        line-height: 14,3px;
-        margin-top: 1px;
-    }
-
-    .header-weeks{
-        margin-top: 95px;
-    }
-
-    .header-weeks-title{
-        font: 15px Roboto;
-        font-weight: 700;
-        max-width: 86.88px;
-        max-height: 23px;
-        margin-right: 95px;
-        line-height: 19,5px;
-    }
-    
-    .header-weeks-text{    
-        font: 11px Roboto;
-        max-width: 86.88px;
-        max-height: 23px;
-        line-height: 14,3px;
-        margin-top: 1px;
-    }
-
-    .header-title-about-format{
-        font: 32px Roboto Slab;
-        margin-top: 103px;
-        margin-left: 71px;
-        max-width: 386.3px;
-        max-height: 54px;
-        line-height: 32.44px;
-        font-weight: 700;
-        margin-bottom: 51.55px;
-    }
-
-    .header-vebinar, .head-access, .head-communication{
-        margin-left: 70.66px;
-    }
-
-    .head-vebinar-title, .head-communication-title{ 
-        font-size: 15px;
-        line-height: 19,5px;
-        max-width: 87px;
-        max-height: 23px;
-        margin-bottom: 1px;
-    }
-
-    .head-vebinar-text, .head-communication-text{
-        font-size: 11px;
-        line-height: 14,3px;
-        max-width: 153px;
-        max-height: 22px;
-        margin-right: -13px;
-    }
-
-    .head-access-title{
-        font: 15px Roboto;
-        max-width: 124px;
-        max-height: 23px;
-        line-height: 19,5px;
-        margin-bottom: 1px;
-        font-weight: 700;
-    }
-    
-    .head-access-text{
-        font: 11px Roboto;
-        max-width: 172px;
-        max-height: 63px;
-        line-height: 14.3px;
-        margin-right: -11px;
-    }
-
-    .header-end-info{
-        margin-top: 103px;
-    }
-
-    .header-end-title{
-        font-size: 32px;
-        line-height: 32.44px;
-        max-width: 386px;
-        max-height: 54px;
-        margin-left: 70.08px;
-    }
-
-    .header-end-tablic{
-        font-size: 14px;
-        line-height: 21px;
-        max-width: 389px;
-        padding-top: 23px;
-        margin-left: 80px;
-    }
-
-    .header-end-shpagi{
-        min-width: 157px;
-        max-height: 93px;
-    }
-    
-    .header-end-dino{
-        margin-top: 70px;
-        min-width: 224px;
-        max-height: 110px;
-    }
     
     .main-section-title{
-        display: flex;
-        margin-top: 145px;
-        justify-content: space-between;
-        margin-bottom: 86.88px;
+        width: 91.6067146%;
+        height: 4.55635492%;
+        margin-left: 8.40277778%;
+        margin-bottom: 8.47721823%;
     }
 
     .main-title{
-        width: 35.7%;
-        max-height: 43px;
-        font-size: 32px;
-        /* поправить после шапки font-size: vw; */
-        margin-right: 70px;
-        margin-left: 70px;
+        font: 3.83693046vw Roboto Slab;
+        font-weight: 700;
+        width: 38.8743455%;
+        height: 4.97382199%;
+        line-height: 32.44px;
+        margin-right: 13.367801%;
     }
 
     .main-div-in-section{
-        width: 47.7%;
-        min-height: 8px;
-        margin-right: 0;
-        margin-top: 25px;
+        font-weight: 900;
+        max-height: 14px;
+        width: 47.7591623%;
+        margin-right: 0px;
+        margin-top: 2%;
     }
 
-    .main-section-img{
-        margin-left: 48.65px;
-        margin-top: 23.75px;
+
+    .main-section-img-1{
+        margin-left: 5.83333333%;
+        margin-right: 5.9028777%;
+        margin-bottom: 2.84772182%;
+        width: 88.263789%;
+        height: 22.7781775%;
+    }
+
+    .main-section-img-2{
+        margin-left: 5.83333333%;
+        margin-right: 5.9028777%;
+        margin-bottom: 2.84772182%;
+        width: 88.263789%;
+        height: 22.7781775%;
+    }
+
+    .main-section-img-3{
+        margin-left: 5.83333333%;
+        width: 88.985611%;
+        height: 22.7781775%;
+
     }
 
     .main-div-img{
-        max-width: 27.7%;
-        margin-right: 21.43px;
+        margin-right: 2.80497382%;
+        width: 30.2473822%;
+        height: 24.8651832%;
     }
 
     .main-p-title{
-        width: 83%;
-        font-size: 17px;
-        /* поправить после шапки и также в основном font-size: 1rem; */
-        max-height: 22.59px;    
+        font: 2.0383693vw Roboto;
+        font-weight: 700;
+        width: 77.2512913%;
+        height: 9.8809791%;
         line-height: 22.1px;
-        white-space: nowrap;
+        padding-top: 2.98225915%;
+        padding-bottom: 8.46620256%;
+        padding-left: 5.09768695%;
+        margin-right: 21.4417247%;
     }
 
     .main-p-text{
-        width: 83%;
-        font-size: 14px; 
-        max-height: 36.49px;    
+        font: 1.67865707vw Roboto;
+        width: 54.3453851%;
+        height: 16.1688749%;
         line-height: 18.2px;
-        white-space: nowrap;       
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 7.13519%;
+        padding-left: 7.097687%;
+        margin-right: 44.3476308%;
     }
 
     .fix{
-        width: 83%;
-        font-size: 17px;
-        max-height: 41.12px;
-        line-height: 22.1px;
-        white-space: nowrap; 
-        padding: 11px 4px 17px 20px;
+        font: 2.0383693vw Roboto;
+        font-weight: 700;
+        width: 94.9472266%;
+        height: 18.4684482%;
+        line-height: 22.49px;
+        padding-top: 4.16348529%;
+        padding-bottom: 2.06602291%;
+        padding-left: 7.313272%;
+        padding-right: 0px;
+        margin-right: 3.62075208%;
     }
 
     .main-img-computer{
-        padding-left: 74.3%;
-        padding-right: 67.18px;
-        max-height: 200px;
-        box-sizing: padding-box;
+        margin-left: 71.447242%;
+        margin-right: 8.05515588%;
+        margin-bottom: 11.006962%;
+        width: 17.5695444%;       
+        max-height: 13.8189448%;
     }
 
     .main-author-title{
-        width: 29.01%;
-        font-size: 32px;
-        margin-left: 70.66px;
-        /* поправить после шапки font-size: vw; */
+        font: 3.83693046vw Roboto Slab;
+        font-weight: 700;
+        width: 28.177458%;
+        margin-right: 28.5179856%;
+        margin-left: 8.51318945%;
+        padding-top: 5.5%; 
     }
 
-    .main-avatar-1{
-        min-width: 109px; 
-        max-height: 103px;
-        margin-left: 90.35px;
-    }
-
-    .main-avatar-2{
-        min-width: 19%; 
-        max-height: 96px;
-        margin-left: 0px;
-    }
-
-    .main-p-avatar-header{
-        min-width: 58%;
-        max-height: 34.17px;
-        line-height: 17.24px;
-        font-size: 17px;
-        margin-right: 11.93px;
-        margin-left: 11px;
-        margin-top: 80px;
-    }
-
-    .main-p-avatar-text{
-        font-size: 10px;
-        min-width: 70%;
-        max-height: 17.95px;
-        margin-right: 39.38px;
-        margin-left: 11px;
-        margin-top: 5px;  
-    }
-
-    .main-icon-action-one{
-        margin-top: 75px;
-        margin-left: 0px;  
-    }
-
-    .main-section-avatar-2{
-        margin-top: 50px;
+    .main-blog-section{
+        display: flex;
     }
 
     .main-section-avatar-1{
-        max-width: 430px;
+        width: 40.3477218%;
+        margin-left: 12.833333%;
+        margin-top: 5.10311751%;
     }
 
-    .main-icon-avatar-2{
-        padding-left: 0px;
-        margin-top: 40px;
-        margin-left: -80px;
+    .main-avatar-1{
+        width: 13.1247002vw;
+        height: 12.3609113vw;    
+    }
+
+    .main-p-avatar-header-1{
+        width: 18.9448441vw;
+        height: 2.63788969vw;
+        font: 2.0383693vw Roboto Slab;
+        font-weight: 700;
+        line-height: 2.06714628vw;
+        margin-left: 3.44880725%;
+        margin-top: 17.190717%;
+        margin-right: 20.375393%;
+        margin-bottom: 1.10337176%;
+    }
+
+    .main-p-avatar-header-2{
+        width: 18.9448441vw;
+        height: 4.94791667vw;
+        font: 2.08333333vw Roboto Slab;
+        font-weight: 700;
+        line-height: 2.06714628vw;
+        margin-left: 4.90196078%;
+        margin-top: 17.254902%;
+        margin-bottom: -6.529412%;
+        margin-right: 18.627451%;
+    }
+
+    .main-p-avatar-text{
+        font: 1.19904077vw Roboto;
+        width: 14.6282974vw;
+        height: 2.15827338vw;
+        line-height: 1.558753vw;
+        margin-left: 5.448807%;
+        margin-right: 33.3199778%;
+        margin-bottom: 6.81748135%;
+    }
+
+    .main-icon-action-one{ 
+        margin-top: 3.4vw;
+        margin-left: 1.038369vw;
+        width: 252px;
+    }
+
+    .main-icon-action-two{ 
+        margin-top: 2.597122vw;
+    }
+
+    .main-icon-avatar-1{
+        max-width: 1.94484412vw;
+        max-height: 1.94484412vw;
+        margin-top: 0;
     }
 
     .main-comp-text-2{
-        max-height: 120px;
-        min-width: 200px;
-        width: 200px;
-        top: 60px;
-        left: -200px;
-        padding: 20px;
+        width: 28.708633vw;
+        height: 20.027578vw;
+        right: 0px;
+        top: 5.673861vw;
+    }
+
+    .main-p-in-comp-text-1{
+        font: 1.19904077vw Roboto;
+        font-weight: 400;
+        line-height: 1.558753vw;
+        padding-top: 7.12047285%;
+        padding-right: 4.82367408%;
+        padding-bottom: 9%;
+        padding-left: 6.23895902%;
+    }
+    
+    .main-p-in-comp-text-2{
+        font: 1.19904077vw Roboto;
+        font-weight: 400;
+        line-height: 1.558753vw;
+        padding-top: 0px;
+        padding-right: 4.82367408%;
+        padding-bottom: 1%;
+        padding-left: 6.23895902%;
+    }
+
+    .main-avatar-2{
+        width: 12.5vw;
+        height: 11.5275779vw;
+        margin-top: 0.71942446vw;
+        margin-left: 0px;
+        margin-bottom: 244px;
+    }
+
+    .main-section-avatar-2{
+        margin-top: 10.5515588vw;
+        margin-left: 2vh;
+    }
+
+    .main-icon-avatar-2{
+        max-width: 1.94484412vw;
+        max-height: 1.94484412vw;
+        margin-top: 1vw;
+        margin-left: -0.441247vw;
     }
 
     .main-comp-text-1{
-        max-height: 180px;
-        min-width: 190px;
-        bottom: 0px;
-        right: 30px;
-        padding: 20px;
+        height: 26.318945vw;
+        width: 27.708633vw;
+        min-width: 0;
+        position: absolute;
+        bottom: 5.959233vw;
+        right: -4vw;
     }
 
-    .main-p-in-comp-text{
-        font-size: 10px;
-        font-family: Roboto;
-        line-height: 23,4px;
-        padding-bottom: 20px;
+    .main-p-in-comp-text-3{
+        font: 1.19904077vw Roboto;
+        font-weight: 400;
+        line-height: 1.558752vw;
+        padding-top: 8.971429%;
+        padding-right: 3.47428571%;
+        padding-bottom: 8%;
+        padding-left: 6.137143%;
+        margin-top: 0;
     }
     
-    .main-author-title{
-        padding-top: 70px;
+    .main-p-in-comp-text-4{
+        font: 1.19904077vw Roboto;
+        font-weight: 400;
+        line-height: 1.558752vw;
+        padding-top: 0px;
+        padding-right: 3.47428571%;
+        padding-bottom: 1%;
+        padding-left: 6.137143%;
     }
-}
-@media screen and (min-width: 375px) and (max-width: 833px) {
 
-    .ilya { 
+}
+
+@media screen and (min-width: 375px) and (max-width: 834px) {
+    
+    .header-container-main {
+        max-width: 833px; 
         width: 100%;
         font-family: Roboto;
-        } 
+        margin: 0 auto;
+    }
+
+    .header-logo {
+        width: 13.9173333%;
+        height: 8.2%;
+        margin-top: 9.6%;
+        margin-right: 76.7493333%;
+        margin-bottom: 0px;
+        margin-left: 9.33333333%;
+    }
+
+    .header-container{
+        max-width: 833px;
+        width: 100%;
+        display: flex;
+        margin: 0;
+    }
+
+    .header-propirties {
+        width: 78.16%;
+        height: 38.1413333%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+
+        margin-top: 0px;
+    }
+
+    .header-image-information{
+        width: 94.248%;
+        height: 4.06933333%;
+    }
+
+    .header-globus{
+        width: 70.831743%;
+        height: 10.164985%;
+        margin-right: 4.94246%;
+    }
+    
+    .image-globus{
+        width: 13.8102937%;
+        height: 13.1905147%;
+    }
+
+    .text-globus{
+        width: 81.6222043%;
+        padding-left: 5.02559957%;
+        font-size: 2.66666667vw;
+    }
+
+    .header-clock{
+        width: 50.8317426%;
+        height: 10.164985%;
+        margin-right: 4.94246%;
+    }
+    
+    .image-clock{
+        width: 14.810294%;
+        height: 13.1905147%;
+    }
+    
+    .text-clock{
+        width: 81.6222043%;
+        padding-left: 5.02559957%;
+        font-size: 2.66666667vw;
+    }
+
+    .header-calendar{
+        width: 50.8317426%;
+        height: 10.164985%;
+        margin-right: 4.94246%;
+    }
+    
+    .image-calendar{
+        width: 14.810294%;
+        height: 13.1905147%;
+    }
+    
+    .text-calendar{
+        width: 81.6222043%;
+        padding-left: 5.02559957%;
+        font-size: 2.66666667vw;
+    }
+
+    .header-title {
+        font: 9.8666667vw Roboto Slab;
+        font-weight: 700;
+        line-height: 10.0026667vw;
+        padding-top: 2.15278632%;
+        padding-bottom: 5.150818%;
+        white-space: pre-wrap;
+        width: 78.4vw;
+    }
+
+    .header-information {
+        font: 2.66666667vw Roboto;
+        line-height: 4vw;
+        width: 89.5220433%;
+        height: 12.2060187%;
+        white-space: pre-wrap;
+    }
+
+    .header-producer {
+        margin-top: 35.195313%;
+        margin-right: 63.083933%;
+        margin-left: -30.333333vw;
+        margin-bottom: 0px;
+        width: 37.7813333%;
+    }
+
+    .header-ticket{
+        width: 61.6826667vw;
+        height: 24.984vw;
+        margin-right: 28.984vw;
+        margin-bottom: 0px;
+        margin-left: 9.33333333vw;
+        margin-top: 8.24vw;
+    }
+    
+    .ticket-text-main{
+        font: 2.93333333vw Roboto Slab;
+        line-height: 3.81333333vw;
+        width: 49.504vw;
+        white-space: pre-wrap;
+    }
+
+    .ticket-author{
+        font: 3.46666667vw Roboto;
+        padding-left: 41.761478%;
+        width: 32.629333vw;
+        height: 6.75733333vw;
+    }
+
+    .header-container {
+        margin-left: 8.40277778%;
+        margin-top: 10.8333333%;
+        margin-right: 8.81944444%;
+    }
+
+    .header-course-information{
+        margin-right: 13.0131894%;
+        height: 58.266667vw;
+        width: 83.2vw;
+    }
+
+    .header-course-about{
+        font: 6.93333333vw Roboto Slab;
+        font-weight: 700;
+        line-height: 7.02933333vw;
+        width: 28vw;
+        height: 8vw;
+        margin-bottom: 8.57142857%;
+    }
+
+    .header-course-text1{
+        font: 3.2vw Roboto;
+        font-weight: 400;
+        line-height: 4.8vw;
+        margin-bottom: 8%;
+        width: 100%;
+    }
+
+    .header-course-text2{
+        font: 3.2vw Roboto;
+        font-weight: 400;
+        line-height: 4.8vw;
+        white-space: pre-wrap;
+        width: 100%;
+    }
+
+    .header-operator {
+        width: 45.48vw;
+        height: 42.744vw;
+        margin-left: -79.7333333vw;
+        margin-top: 86%;
+        margin-bottom: -10.4vw;
+    }
+
+    .header-light-man {
+        width: 28.8293333vw;
+        height: 27.2133333vw;
+        margin-left: 51.333333vw;
+        margin-top: 24.5333333vw;
+    }
+
+    .header-lessons{
+        width: 23.2vw;
+        height: 16.266667vw;
+        margin-left: -85.133333vw;
+    }
+    
+    .header-lessons-title{
+        font: 3.2vw Roboto;
+        font-weight: 700;
+        line-height: 4.16vw;
+        padding-bottom: 1.06666667vw;
+    }
+    
+    .header-lessons-text{
+        font: 2.66666667vw Roboto;
+        line-height: 3.46666667vw;
+        font-weight: 500;
+        width: 23.2vw;
+    }
+
+    .header-time{
+        width: 23.2vw;
+        height: 16.266667vw;
+    }
+    
+    .header-time-title{
+        font: 3.2vw Roboto;
+        font-weight: 700;
+        line-height: 4.16vw;
+        padding-bottom: 1.06666667vw;
+    }
+    
+    .header-time-text{
+        font: 2.66666667vw Roboto;
+        line-height: 3.46666667vw;
+        font-weight: 500;
+        width: 23.2vw;
+    }
+
+    .header-weeks{
+        margin-top: 27.4666667vw;
+        margin-left: -59.2vw; 
+        width: 23.2vw;
+        height: 16.266667vw;
+    }
+    
+    .header-weeks-title{
+        font: 3.2vw Roboto;
+        font-weight: 700;
+        line-height: 4.16vw;
+        padding-bottom: 1.06666667vw;
+    }
+    
+    .header-weeks-text{    
+        font: 2.66666667vw Roboto;
+        line-height: 3.46666667vw;
+        font-weight: 500;
+        width: 23.2vw;
+    }
+
+    .header-title-about-format{
+        font: 6.93333333vw Roboto Slab;
+        margin-top: 11.4533333vw;
+        margin-left: 9.6vw;
+        margin-bottom: -3.266667vw;
+        margin-right: 27.4666667vw;
+        width: 62.9333333vw;
+        height: 8.26666667vw;
+        line-height: 7.02933333vw;
+        font-weight: 700;
+    }
+
+    .header-vebinar{
+        width: 48.2666667vw;
+        margin-left: 2vw;
+    }
+
+    .head-communication{
+        width: 36.2666667vw;
+        margin-left: -51.733333vw;
+        margin-top: 40vw;
+    }
+    
+    .head-access{
+        width: 44vw;
+        margin-left: -56.733333vw;
+        margin-top: 17.733333vw;
+    }
+
+    .head-vebinar-title, .head-communication-title{ 
+        font: 3.2vw Roboto;
+        font-weight: 700;
+        line-height: 4.16vw;
+        width: 57.0303269%;
+        padding-bottom: 0.22133333vw;
+    }
+
+    .head-vebinar-text, .head-communication-text{
+        font: 2.66666667vw Roboto;
+        font-weight: 500;
+        line-height: 3.46666667vw;
+        white-space: pre-wrap;
+        width: 48.2666667vw;
+    }
+
+    .head-access-title{
+        font: 3.2vw Roboto;
+        width: 82.0533018%;
+        font-weight: 700;
+        line-height: 4.16vw;
+        padding-bottom: 0.22133333vw;
+    }
+    
+
+    .head-access-text{
+        font: 2.66666667vw Roboto;
+        font-weight: 500;
+        line-height: 3.46666667vw;
+        white-space: pre-wrap;
+    }
+
+    br{
+        display: none;
+    }
+
+    .header-end{
+        margin-bottom: 15.32494%;
+    }
+
+    .header-end-info{
+        margin-top: 12.4160671%;
+        width: 82.9333333vw;
+        margin-left: 10.393285%;
+        height: 35.6654676%;
+        margin-right: 4.3057554%;
+    }
+
+    .header-end-title{
+        font: 6.93333333vw Roboto Slab;
+        font-weight: 700;
+        line-height: 7.02933333vw;
+        width: 44.2666667vw;
+        padding-bottom: 5.6vw;
+    }
+
+    .header-end-tablic{
+        font: 3.2vw Roboto;
+        font-weight: 400;
+        line-height: 4.8vw;
+        width: 80.8vw;
+        padding-left: 4.472754%;
+    }
+
+    .header-end-img{
+        margin-top: 8.917266%;
+        width: 26.8057554%;
+    }
+
+    .header-end-shpagi{
+        width: 35.2906667vw;
+        padding-bottom: 45.8555133%;
+        margin-top: -16.8vw;
+        margin-left: -37.6vw;
+    }
+    
+    .header-end-dino{
+        width: 47.9653333vw;
+        margin-top: 72.5333333vw;
+        margin-left: -70.466667vw;
+    }
+
+
+
+    .header-propirties {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    
+    .header-logo {
+        min-width: 52.19px;
+        max-height: 30.75px;
+        padding-top: 36px;
+        padding-left: 35px;
+        margin: 0 0 29px 35px;
+    }
+
+    .header-image-information{
+        width: 98px;
+        margin: 0 0 0 0;
+    }
+    .header-globus {
+        
+        /* height: 9.79px; */ */
+        padding: 0 0 0 5px;
+        margin: 0 0 0 30%;
+    }
+    .image-globus {
+        margin: 0 4px 0 35px;
+        width: 10px;
+    }
+    .text-globus {
+        margin-right: 15px;
+        font-size: 10px;
+        padding: 11px 0 0 0;
+
+    }
+    
+    .image-clock {
+        width: 10px;
+        padding-left: 50px: ;
+    }
+    .text-clock {
+        font-size: 10px;
+        padding:  11px 0 0 4px;
+        margin-right: 18px;
+    }
+    .image-calendar {
+        width: 10px;
+        padding-top: 9px;
+    }
+    
+    .text-calendar {
+        font-size: 10px;
+        padding: 10px 0 0 7px;
+    }
+
+    .header-title {
+        font-size: 37px;
+        padding: 10px 0 0 65px;
+        margin: 0 0 0 0;
+        line-height: 38px;
+    }
+
+    .header-information {
+        font-size: 10px;
+        padding: 12px 0 0 65px;
+        line-height: 17px;
+    }
+
+    .header-producer {
+        width: 150px;
+        margin: 140px 0 0 -200px;
+        padding: 10px 0 0 100px;
+    }
+
+    .header-ticket {
+        margin: 33px 0 0 73px;
+        width: 225px;
+        height: 91px;
+        border-radius: 2%;
+    }
+
+    .ticket-text-main {
+        
+        width: 205px;
+        height: 80px;
+        font-size: 68%;
+        line-height: 15px;
+        padding: 6px 0 0 15px;
+    }
+    .ticket-author {
+        width: 205px;
+        height: 80px;
+        font-size: 68%;
+        line-height: 15px;
+        padding: 6px 0 0 15px;
+    }
+
+
+    /**/
+
+    .main-menu{
+        max-width: 832px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .main-section-title{
+        width: 90.9333333vw;
+        height: 8.26666667vw;
+        margin-left: 9.06666667vw;
+        margin-bottom: 12.8vw;
+    }
+
+    .main-title{
+        font: 6.93333333vw Roboto Slab;
+        font-weight: 700;
+        width: 65.8666667vw;
+        height: 8.26666667vw;
+        line-height: 7.02933333vw;
+        margin-right: 6.4vw;
+    }
+
+    .main-div-in-section{
+        font-weight: 900;
+        max-height: 1.33333333vw;
+        width: 18.6666667vw;
+        margin-right: 0vw;
+        margin-top: 4%;
+    }
+
+    .main-section-img-1{
+        margin-left: 25.3333333vw;
+        margin-right: 25.088vw;
+        margin-bottom: 0.442667vw;
+        width: 49.5786667vw;
+        flex-flow: column;
+    }
+
+    .main-section-img-2{
+        margin-left: 25.3333333vw;
+        margin-right: 25.088vw;
+        margin-bottom: 0.442667vw;
+        width: 49.5786667vw;
+        flex-flow: column;
+    }
+
+    .main-section-img-3{
+        margin-left: 25.3333333vw;
+        margin-right: 25.088vw;
+        width: 49.5786667vw;
+        flex-flow: column;
+    }
+
+    .main-div-img{
+        width: 49.5786667vw;
+        height: 40.7573333vw;
+        margin-bottom: 6.44266667vw;
+    }
+
+    .main-p-title{
+        font: 3.73333333vw Roboto;
+        font-weight: 700;
+        width: 45.3546667vw;
+        height: 4.84533333vw;
+        line-height: 4.85333333vw;
+        padding-top: 1.368vw;
+        padding-bottom: 1.976vw;
+        padding-left: 3.485333vw;
+        margin-right: 1.73866667vw;
+    }
+
+    .main-p-text{
+        font: 3.2vw Roboto;
+        width: 29.533333vw;
+        height: 8.26666667vw;
+        line-height: 4.16vw;
+        padding-top: 0px;
+        padding-right: 18.6453333vw;
+        padding-bottom: 2.35733333vw;
+        padding-left: 3.5vw;
+        white-space: pre-wrap;
+    }
+
+    .fix{
+        font: 3.73333333vw Roboto;
+        font-weight: 700;
+        width: 45.3546667vw;
+        height: 8.82133333vw;
+        line-height: 3.62133333vw;
+        padding-top: 1.163485%;
+        padding-bottom: 0px;
+        padding-left: 3.485333vw;
+        padding-right: 1.73866667vw;
+    }
+
+    .main-img-computer{
+        display: none;
+    }
+
+    .main-author-title{
+        font: 6.93333333vw Roboto Slab;
+        font-weight: 700;
+        width: 51.7333333vw;
+        margin-right: 38.9333333vw;
+        margin-left: 9.33333333vw;
+        padding-top: 14.776vw; 
+    }
+
+    .main-blog-section{
+        display: block;
+    }
+
+    .main-section-avatar-1{
+        width: 64.7386667vw;
+        margin-left: 6.89066667vw;
+        margin-right: 28.3706667vw;
+        margin-top: 8.20533333vw;
+    }
+
+    .main-avatar-1{
+        width: 23.4853333vw;
+        height: 22.1173333vw;    
+    }
+
+    .main-p-avatar-header-1{
+        width: 35.248vw;
+        height: 4.8vw;
+        font: 3.73333333vw Roboto Slab;
+        font-weight: 700;
+        line-height: 3.784;
+        margin-left: 2.424vw;
+        margin-top: 3.4vw;
+        margin-right: 32vw;
+        margin-bottom: 0.8vw;
+    }
+
+    .main-p-avatar-header-2{
+        width: 36vw;
+        height: 4vw;
+        font: 3.73333333vw Roboto Slab;
+        font-weight: 700;
+        line-height: 3.784vw;
+        margin-left: 2.432vw;
+        margin-top: 18.818667vw;
+        margin-bottom: -2.666667vw;
+        margin-right: 31.7333333vw;
+        white-space: nowrap;
+    }
+
+    .main-p-avatar-text{
+        font: 2.66666667vw Roboto;
+        width: 59.733333vw;
+        height: 4vw;
+        line-height: 3.46666667vw;
+        margin-left: 2.424vw;
+        margin-right: 35.4666667vw;
+        margin-top: 5.86666667vw;
+        white-space: pre-wrap;
+    }
+
+    .main-icon-action-one{ 
+        margin-top: 8.480392%;
+        margin-left: 17px;
+        width: 252px;
+    }
+
+    .main-icon-avatar-1{
+        display: none;
+    }
+
+    .main-comp-text-2{
+        display: initial;
+        width: 57.0906667vw;
+        height: 17vh;
+        position: absolute;
+        right: 45.6vw;
+        top: 12.8vw;
+        background-color: #FFFFFF;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .main-p-in-comp-text-1{
+        font: 2.66666667vw Roboto;
+        font-weight: 400;
+        line-height: 3.46666667vw;
+        padding-bottom: 6%;
+        white-space: pre-wrap;
+        width: 57.0666667vw;
+    }
+    
+    .main-p-in-comp-text-2{
+        font: 2.66666667vw Roboto;
+        font-weight: 400;
+        line-height: 3.46666667vw;
+        padding-top: 0px;
+        white-space: pre-wrap;
+        width: 57.0666667vw;
+    }
+
+    .main-avatar-2{
+        width: 22.368vw;
+        height: 20.6266667vw;
+        margin-left: 0px;
+        margin-bottom: 83.634667vw;
+    }
+
+    .main-section-avatar-2{
+        width: 64.7386667vw;
+        margin-left: 6.89066667vw;
+        margin-right: 28.3706667vw;
+        margin-top: 44.485333vw;
+    }
+
+    .main-icon-avatar-2{
+        display: none;
+    }
+
+    .main-comp-text-1{
+        display: initial;
+        height: 38.632vw;
+        min-width: 55.2vw;
+        position: absolute;
+        bottom: -64.8vw;
+        right: 44vw;
+        background-color: #FFFFFF;
+        box-shadow: none;
+        border-radius: 0;
+    }
+
+    .main-p-in-comp-text-3{
+        font: 2.66666667vw Roboto;
+        font-weight: 400;
+        line-height: 3.46666667vw;
+        padding-bottom: 6%;
+        white-space: pre-wrap;
+        width: 56.066667vw;
+    }
+    
+    .main-p-in-comp-text-4{
+        font: 2.66666667vw Roboto;
+        font-weight: 400;
+        line-height: 3.46666667vw;
+        padding-top: 0px;
+        white-space: pre-wrap;
+        width: 57.0666667vw;
+    }
+    
 }
+
 
