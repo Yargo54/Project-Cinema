@@ -271,7 +271,8 @@
         display: flex;
         background: #000000;
         flex-direction: column;
-        height: 394px;
+        /* height: 394px; */
+        height: 257px;
     }
     
     .footer__copyright-icon-group {
