@@ -6,6 +6,7 @@ body{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    border: 1px solid red;
 }
 .header-container-main {
     max-width: 1440px; 
@@ -1282,7 +1283,7 @@ body{
 
     .header-container{
         max-width: 833px;
-        width: 100%;
+        width: 92%;
         display: flex;
         margin: 0;
     }
@@ -1293,7 +1294,6 @@ body{
         margin-left: 0px;
         margin-bottom: 0px;
         margin-right: 0px;
-
         margin-top: 0px;
     }
 
@@ -1373,7 +1373,7 @@ body{
 
     .header-producer {
         margin-top: 35.195313%;
-        margin-right: 63.083933%;
+        margin-right: 0;
         margin-left: -30.333333vw;
         margin-bottom: 0px;
         width: 37.7813333%;
@@ -1409,7 +1409,7 @@ body{
     }
 
     .header-course-information{
-        margin-right: 13.0131894%;
+        margin-right: 9.013189%;
         height: 58.266667vw;
         width: 83.2vw;
     }
@@ -1442,7 +1442,7 @@ body{
     .header-operator {
         width: 45.48vw;
         height: 42.744vw;
-        margin-left: -79.7333333vw;
+        margin-left: -72.733333vw;
         margin-top: 86%;
         margin-bottom: -10.4vw;
     }
@@ -1736,6 +1736,10 @@ body{
         display: block;
     }
 
+    .section-fix{
+        width: 265px;
+    }
+
     .main-section-avatar-1{
         width: 64.7386667vw;
         margin-left: 6.89066667vw;
@@ -1786,8 +1790,12 @@ body{
 
     .main-icon-action-one{ 
         margin-top: 8.480392%;
-        margin-left: 17px;
+        margin-left: 0;
         width: 252px;
+    }
+
+    .main-icon-action-two{
+        margin-left: 0;
     }
 
     .main-icon-avatar-1{
@@ -1799,7 +1807,7 @@ body{
         width: 57.0906667vw;
         height: 17vh;
         position: absolute;
-        right: 45.6vw;
+        right: 14.6vw;
         top: 12.8vw;
         background-color: #FFFFFF;
         box-shadow: none;
@@ -1848,7 +1856,7 @@ body{
         min-width: 55.2vw;
         position: absolute;
         bottom: -64.8vw;
-        right: 44vw;
+        right: 15vw;
         background-color: #FFFFFF;
         box-shadow: none;
         border-radius: 0;
