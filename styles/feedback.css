@@ -4,59 +4,54 @@
 .feedback {
     display: flex;
     flex-direction: column;
-    width: 100vw;
-    height: 780px;
+    max-width: 1440px;
+    width: 100%;
+    height: 54.1666667vw;
     background: #EFEFEF;
 }
 
 .feedback__title {
-    display: flex;
-    width: 69%;
-    height: 93px;
-
+    width: 61.3888889vw;
+    height: 6.45833333vw;
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
-    font-size: 55px;
-    line-height: 101.38%;
+    font-size: 3.81944444vw;
+    line-height: 3.87222222vw;
     color: #000000;
-    margin-top: 91px;
-    margin-left: 122px;
-    margin-bottom: 34px;
+    margin-top: 6.31944444vw;
+    margin-left: 8.47222222vw;
+    margin-bottom: 2.36111111vw;
 }
 
 .feedback__palehova {
-    display: block;
-    width: 55%;
-    height: 451px;
+    width: 55vw;
+    height: 31.3194444vw;
     background: #FFFFFF;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
-    margin-left: 126px;
-    margin-bottom: 111px;
+    margin-left: 8.75vw;
+    margin-bottom: 7.708833333vw;
 }
 
 .feedback__palehova-text {
-    display: flex;
-    /* width: 700px; */
-    width: 89%;
-    height: 203px;
-
+    width: 48.6111111vw;
+    height: 14.0972222vw;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 150%;
+    font-size: 1.38888889vw;
+    line-height: 2.08333333vw;
     color: #000000;
-    margin: 40px auto 10px;
+    margin: 2.77777778vw auto 0.69444444vw;
  
 }
 
 .feedback__palehova-foto {
-    width: 24%;
-    height: 169px;
-    margin-left: 26px;
-    margin-bottom: 29px;
+    width: 13.1944444vw;
+    height: 11.7361111vw;
+    margin-left: 1.80555556vw;
+    margin-bottom: 2.01388889vw;
 }
 
 .feedback__palehova-signature {
@@ -65,72 +60,172 @@
 }
 
 .feedback__palehova-name-container {
-    display: flex;
     flex-direction: column;
-    width: 25%;
-    height: 169px;
-    margin-left: 30px;
-    margin-bottom: 29px;
+    width: 23.0555556vw;
+    height: 11.7361111vw;
+    margin-left: 2.08333333vw;
+    margin-bottom: 2.01388889vw;
 }
 
 .feedback__palehova-name {
-    display: flex;
-    width: 353px;
-    height: 59px;
-
+    width: 24.5138889vw;
+    height: 4.09722222vw;
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 101.38%;
-    margin: 40px 0 0 0;
+    font-size: 2.08333333vw;
+    line-height: 2.1125vw;
+    margin: 2.77777778vw 0 0 0;
     color: #000000;
 }
 
 .feedback__palehova-icon {
-    display: flex;
-    width: 32px;
-    height: 31px;
+    width: 2.22222222vw;
+    height: 2.15277778vw;
 }
 
-.feedback {
-    display: flex;
+@media screen and (min-width: 834px) and (max-width: 1279px){
+
+    .feedback {
+        max-width: 1279px;
+        width: 100%;
+        height: 54.1666667vw;
+    }
+    
+    .feedback__title {
+        width: 68.5419664vw;
+        height: 6.45803357vw;
+        font-size: 3.83693046vw;
+        line-height: 3.88968825vw;
+        margin-top: 6.31894484vw;
+        margin-left: 8.47242206vw;
+        margin-bottom: 2.36091127vw;
+        margin-right: 22.9856115vw;
+    }
+    
+    .feedback__palehova {
+        width: 54.9304556vw;
+        height: 31.3189448vw;
+        margin-left: 8.74940048vw;
+        margin-bottom: 7.70863309vw;
+        margin-right: 36.3189448vw;
+    }
+    
+    .feedback__palehova-text {
+        width: 48.6115108vw;
+        height: 14.0971223vw;
+        font-size: 1.43884892vw;
+        line-height: 2.15827338vw;
+        margin-top: 2.77817746vw;
+        margin-right: 3.1942446vw;
+        margin-bottom: 0px;
+        margin-left: 3.12470024vw;
+    }
+    
+    .feedback__palehova-foto {
+        width: 13.1942446vw;
+        height: 11.736211vw;
+        margin-left: 1.8057554vw;
+        margin-bottom: 2.01438849vw;
+        margin-top: 0.6942446vw;
+    }
+    
+    .feedback__palehova-signature {
+        display: flex;
+    }
+    
+    .feedback__palehova-name-container {
+        width: 24.5143885vw;
+        height: 6.25059952vw;
+        margin-left: 2.08393285vw;
+        margin-bottom: 4.72182254vw;
+        margin-right: 13.3333333vw;
+    }
+    
+    .feedback__palehova-name {
+        width: 24.5143885vw;
+        height: 4.0971223vw;
+        font-size: 2.0383693vw;
+        line-height: 2.06714628vw;
+        margin: 3.47242206vw 0 0 0;
+    }
+    
+    .feedback__palehova-icon {
+        width: 2.22182254vw;
+        height: 2.15227818vw;
+    }    
 }
 
-.feedback {
-    display: flex;
-}
-
-.feedback {
-    display: flex;
-}
-
-.feedback {
-    display: flex;
-}
-
-.feedback {
-    display: flex;
-}.feedback {
-    display: flex;
-}.feedback {
-    display: flex;
-}.feedback {
-    display: flex;
-}.feedback {
-    display: flex;
-}.feedback {
-    display: flex;
-}.feedback {
-    display: flex;
-}.feedback {
-    display: flex;
-}.feedback {
-    display: flex;
-}.feedback {
-    display: flex;
-}.feedback {
-    display: flex;
-}.feedback {
-    display: flex;
+@media screen and (min-width: 375px) and (max-width: 834px){
+    
+    .feedback {
+        max-width: 834px;
+        width: 100%;
+        height: 112.8vw;
+    }
+    
+    .feedback__title {
+        width: 68.5333333vw;
+        height: 18.4vw;
+        font-size: 6.93333333vw;
+        line-height: 7.02933333vw;
+        margin-top: 11.2vw;
+        margin-left: 9.6vw;
+        margin-bottom: 2.93333333vw;
+        margin-right: 22.1333333vw;
+        
+    }
+    
+    .feedback__palehova {
+        width: 82.1333333vw;
+        height: 66.1333333vw;
+        margin-left: 9.6vw;
+        margin-bottom: 14.1333333vw;
+        margin-right: 8.53333333vw;
+    }
+    
+    .feedback__palehova-text {
+        width: 71.2vw;
+        height: 32vw;
+        font-size: 2.66666667vw;
+        line-height: 4vw;
+        margin-top: 4.8vw;
+        margin-right: 5.33333333vw;
+        margin-bottom: 0px;
+        margin-left: 5.6vw;
+     
+    }
+    
+    .feedback__palehova-foto {
+        width: 21.3333333vw;
+        height: 22.4vw;
+        margin-left: 5.6vw;
+        margin-bottom: 3.46666667vw;
+        margin-top: 3.46666667vw;
+    }
+    
+    .feedback__palehova-signature {
+        display: flex;
+    }
+    
+    .feedback__palehova-name-container {
+        width: 43.864vw;
+        height: 13.3146667vw;
+        margin-left: 3.63466667vw;
+        margin-bottom: 7.87733333vw;
+        margin-right: 7.70133333vw;
+    }
+    
+    .feedback__palehova-name {
+        width: 43.864vw;
+        height: 8.728vw;
+        font-size: 3.73333333vw;
+        line-height: 3.784vw;
+        margin: 8.144vw 0 0 0;
+    }
+    
+    .feedback__palehova-icon {
+        width: 3.976vw;
+        height: 4.58666667vw;
+    }
 }
