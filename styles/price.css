@@ -317,9 +317,8 @@ p {
         display: flex;
         flex-direction: column;
         /* margin-right: 70px; */
-        margin-right: 19px;
-        width: 23%;
-    
+        margin-right: 31px;
+        width: 39%;    
     }
 
     .conditions__level {
@@ -328,20 +327,15 @@ p {
         font-weight: normal;
         font-size: 12px;
         line-height: 101.38%;
-        width: 137px;
+        width: 130px;
         height: 14.91px;
  
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 12px;
-        line-height: 101.38%;
         margin-top: 12px;
         margin-bottom: 3px;
         
     }
     .conditions__for-whom {
-        width: 140px;
+        width: 130px;
         height: 38px;
         
         font-family: Roboto;

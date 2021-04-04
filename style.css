@@ -6,6 +6,7 @@ body{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    border: 1px solid red;
 }
 .header-container-main {
     max-width: 1440px; 
@@ -127,12 +128,12 @@ body{
 }
 
 .ticket-text-main{
-    font: 25px Roboto Slab;
+    font: 24px Roboto Slab;
     max-width: 430px;
     max-height: 113px;
     color: #FFFFFF;
     transform: rotate(0deg);
-    padding-left: 26px;
+    padding-left: 7px;
     padding-top: 17px;
     line-height: 32px;
     white-space: nowrap;
@@ -145,7 +146,7 @@ body{
     color: #FFFFFF;
     transform: rotate(0deg);
     text-align: right;
-    padding-left: 180px;
+    padding-left: 145px;
     padding-top: 21px;
 }
 
@@ -466,6 +467,7 @@ body{
     width: 100%;
     display: flex;
     max-height: 328px;
+  
 }
 
 .main-section-img-1{
@@ -475,6 +477,7 @@ body{
     width: 100%;
     display: flex;
     max-height: 328px;
+    
 }
 
 .main-div-img{
@@ -1030,13 +1033,18 @@ body{
     }
 
     .main-section-img{
-        margin-left: 48.65px;
+        /* margin-left: 48.65px; */
         margin-top: 23.75px;
+        justify-content: center;
+        margin-left: 0px;
+
     }
 
     .main-section-img-1{
-        margin-left: 48.65px;
+        /* margin-left: 48.65px; */
         margin-top: 23.75px;
+        justify-content: center;
+        margin-left: 0px;
     }
 
     .main-div-img{
