@@ -24,20 +24,11 @@
     margin-top: 6.32%;
     margin-left: 8.47%;
     margin-bottom: 5.37%;
-    /* margin-bottom: 2.37% */
-    /* margin-top: 91px;
-    margin-left: 122px;
-    margin-bottom: 34px; */
-
-    
 }
 
 .feedback__palehova {
-
     display: block;
     width: 62%;
-    /* height: 58%; */
-    /* height: 451px; */
     background: #FFFFFF;
     box-shadow: 1px 1px 20px rgb(0 0 0 / 25%);
     border-radius: 30px;
@@ -47,9 +38,7 @@
 
 .feedback__palehova-text {
     display: flex;
-    /* width: 700px; */
     width: 89%;
-    /* height: 203px; */
     height: 45%;
     font-family: Roboto;
     font-style: normal;
@@ -63,12 +52,9 @@
 
 .feedback__palehova-foto {
     width: 24%;
-    /* height: 169px; */
     height: 38%;
     margin-left: 26px;
     margin-bottom: 29px;
-    /* padding-top: 25px; */
-
 }
 
 .feedback__palehova-signature {
@@ -88,8 +74,6 @@
 
 .feedback__palehova-name {
     display: flex;
-    /* width: 353px; */
-    /* height: 59px; */
     height: 100%;
     width: 100%;
     font-family: Roboto Slab;
@@ -117,7 +101,6 @@
         height: 269px;
         margin: 20px 290px 57px 75px;
         width: 458.12px;
-        /* height: 261.2px; */
 }
 
     .feedback__title {
@@ -133,11 +116,9 @@
     }
     
     .feedback__palehova-text {
-    
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
-       
         line-height: 150%;
         width: 405.42px;
         height: 117.57px;
@@ -148,15 +129,13 @@
     }
     
     .feedback__palehova-foto {
-    /* width: 24%;
-    height: 89%; */
-    width: 110.04px;
-    height: 97.88px;
-    margin-left: 14px;
-}
+        width: 110.04px;
+        height: 97.88px;
+        margin-left: 14px;
+    }
+
     .feedback__palehova-name-container {
         margin-left: 17px;
- 
     }
 
     .feedback__palehova-name {
@@ -166,29 +145,24 @@
         font-size: 17px;
         line-height: 101.38%;
         margin: 23px 0 10px 0;
-
     }
-    .feedback__palehova-icon {
 
+    .feedback__palehova-icon {
     height: 18px;
     margin-top: 7px;
+    }
+
 }
-
-  }
-
-  @media screen and (min-width: 375px) and (max-width: 833px) {
+@media screen and (min-width: 375px) and (max-width: 833px) {
    
-
     .feedback {
         display: flex;
         flex-direction: column;
         width: 100%;
-        /* height: 780px; */
         background: #EFEFEF;
     }
     
     .feedback__title {
-
         font-family: Roboto Slab;
         font-style: normal;
         font-weight: bold;
@@ -206,7 +180,6 @@
         display: block;
         width: 308px;
         height: 248px;
-        /* height: 451px; */
         background: #FFFFFF;
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
         border-radius: 15px;
@@ -219,7 +192,6 @@
         display: flex;
         width: 266px;
         height: 111.01px;
-        
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -233,40 +205,31 @@
     .feedback__palehova-foto {
     width: 94px;
     height: 84px;
-    /* height: 79%; */
     margin-left: 15px;
     margin-bottom: 13px;
     margin-right: -3px;
-}
+    }
     
     
     .feedback__palehova-signature {
         display: flex;
         height: 90px;
-    
     }
     
     .feedback__palehova-name-container {
         display: flex;
         flex-direction: column;
         width: 45%;
-        /* height: 35%; */
         margin-left: 13px;
         margin-bottom: 30px;
         margin-top: 0;
         height: 65px;
-
     }
     
     .feedback__palehova-name {
         display: flex;
         width: 165px;
         height: 33px;
-        /* height: 13%;
-        width: 25%;
-        /* height: 100%;
-        width: 100%; */
-    
         font-family: Roboto Slab;
         font-style: normal;
         font-weight: bold;
@@ -285,15 +248,11 @@
     
     
     .feedback__palehova-text {
-        
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
         font-size: 10px;
         line-height: 150%;
-        /* margin-left: 27.52%;
-        margin-bottom: 24.24%; */
-     
     }
     
     
@@ -304,6 +263,4 @@
         font-size: 14px;
         line-height: 101.38%;
     }
-    
-
-  }
+}

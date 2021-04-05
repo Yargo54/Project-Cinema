@@ -6,7 +6,6 @@ body{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    border: 1px solid red;
 }
 .header-container-main {
     max-width: 1440px; 
@@ -1394,7 +1393,6 @@ body{
         font: 2.93333333vw Roboto Slab;
         line-height: 3.81333333vw;
         width: 57.504vw;
-        /* width: 49.504vw; */
         white-space: pre-wrap;
     }
 
@@ -1701,7 +1699,6 @@ body{
     .main-p-text{
         font: 3.2vw Roboto;
         width: 40.533333vw;
-        /* width: 29.533333vw; */
         height: 8.26666667vw;
         line-height: 4.16vw;
         padding-top: 0px;
@@ -1811,7 +1808,6 @@ body{
         display: initial;
         width: 32.090667vw;
         height: 17vh;
-        /* position: absolute; */
         right: 14.6vw;
         left: -69.7vw;
         top: 12.8vw;
@@ -1863,7 +1859,6 @@ body{
         display: initial;
     	height: 17vh;
     	width: 32vw;
-    	/* position: absolute; */
     	top: 30.8vw;
     	right: 38vw;
         left: -70vw;
