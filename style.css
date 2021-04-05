@@ -1377,6 +1377,8 @@ body{
         margin-left: -30.333333vw;
         margin-bottom: 0px;
         width: 37.7813333%;
+        padding: 0;
+        height: 46.6933333%;
     }
 
     .header-ticket{
@@ -1391,7 +1393,8 @@ body{
     .ticket-text-main{
         font: 2.93333333vw Roboto Slab;
         line-height: 3.81333333vw;
-        width: 49.504vw;
+        width: 57.504vw;
+        /* width: 49.504vw; */
         white-space: pre-wrap;
     }
 
@@ -1527,7 +1530,7 @@ body{
     }
 
     .header-vebinar{
-        width: 48.2666667vw;
+        width: 49.266667vw;
         margin-left: 2vw;
     }
 
@@ -1697,7 +1700,8 @@ body{
 
     .main-p-text{
         font: 3.2vw Roboto;
-        width: 29.533333vw;
+        width: 40.533333vw;
+        /* width: 29.533333vw; */
         height: 8.26666667vw;
         line-height: 4.16vw;
         padding-top: 0px;
@@ -1805,11 +1809,11 @@ body{
 
     .main-comp-text-2{
         display: initial;
-        width: 32.090667vh;
+        width: 32.090667vw;
         height: 17vh;
-        position: absolute;
-        right: 14.6vh;
-        left: -39.7vh;
+        /* position: absolute; */
+        right: 14.6vw;
+        left: -69.7vw;
         top: 12.8vw;
         background-color: #FFFFFF;
         box-shadow: none;
@@ -1858,10 +1862,11 @@ body{
     .main-comp-text-1{
         display: initial;
     	height: 17vh;
-    	width: 32vh;
-    	position: absolute;
+    	width: 32vw;
+    	/* position: absolute; */
     	top: 30.8vw;
-    	right: 7.9vh;
+    	right: 38vw;
+        left: -70vw;
     	background-color: #FFFFFF;
     	box-shadow: none;
     	border-radius: 0;
