@@ -1749,7 +1749,8 @@ body{
 
     .main-avatar-1{
         width: 23.4853333vw;
-        height: 22.1173333vw;    
+        height: 22.1173333vw;
+        margin-top: 2vw;    
     }
 
     .main-p-avatar-header-1{
@@ -1804,14 +1805,17 @@ body{
 
     .main-comp-text-2{
         display: initial;
-        width: 57.0906667vw;
+        width: 32.090667vh;
         height: 17vh;
         position: absolute;
-        right: 14.6vw;
+        right: 14.6vh;
+        left: -39.7vh;
         top: 12.8vw;
         background-color: #FFFFFF;
         box-shadow: none;
         border-radius: 0;
+        min-width: 0;
+        bottom: 0;
     }
 
     .main-p-in-comp-text-1{
@@ -1837,13 +1841,14 @@ body{
         height: 20.6266667vw;
         margin-left: 0px;
         margin-bottom: 83.634667vw;
+        margin-top: 15vw;
     }
 
     .main-section-avatar-2{
         width: 64.7386667vw;
         margin-left: 6.89066667vw;
         margin-right: 28.3706667vw;
-        margin-top: 44.485333vw;
+        margin-top: 36.485333vw;
     }
 
     .main-icon-avatar-2{
@@ -1852,14 +1857,16 @@ body{
 
     .main-comp-text-1{
         display: initial;
-        height: 38.632vw;
-        min-width: 55.2vw;
-        position: absolute;
-        bottom: -64.8vw;
-        right: 15vw;
-        background-color: #FFFFFF;
-        box-shadow: none;
-        border-radius: 0;
+    	height: 17vh;
+    	width: 32vh;
+    	position: absolute;
+    	top: 30.8vw;
+    	right: 7.9vh;
+    	background-color: #FFFFFF;
+    	box-shadow: none;
+    	border-radius: 0;
+        min-width: 0;
+        bottom: 0;
     }
 
     .main-p-in-comp-text-3{
